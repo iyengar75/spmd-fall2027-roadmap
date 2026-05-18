@@ -6,6 +6,8 @@
 > Two-track Sports Medicine offering within the BSCND programme.
 > Single `_data.json` source-of-truth powers every downstream artifact.
 
+**🔬 Live NotebookLM:** [BSCND SPMD Fall 2027 Roadmap (ADEK)](https://notebooklm.google.com/notebook/43d96428-6ac5-4861-8f2b-10bdc9d734f1) — 13 sources uploaded (3 Habiba PDFs, 4 SPMD syllabi, generated briefing + study guide + Q&A pack, roadmap doc, PHYSICAL MANAGER program plan, FitnessCoach licensure integration). Ask the corpus questions directly in the NotebookLM web UI.
+
 ---
 
 ## Programme Overview
