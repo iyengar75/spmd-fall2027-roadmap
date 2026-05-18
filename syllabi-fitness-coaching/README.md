@@ -70,18 +70,15 @@ All 17 KU UGCC sections present per *Course Syllabus Template Updated Dec 2025*:
 
 ## Regenerating the .docx files
 
-Each syllabus has a paired Python builder. To regenerate (e.g., to amend a CLO or a textbook):
+All four syllabi are produced by a single Python builder that follows the **NUTR401 visual/structural pattern** (the UGCC-approved gold standard). Each syllabus is a `dict` entry in the `SYLLABI` list inside `build_nutr401_format_syllabi.py`. To regenerate (e.g., to amend a CLO, textbook, or weekly topic):
 
 ```bash
 cd <local clone>/syllabi-fitness-coaching
 pip install python-docx
-python build_spmd305_syllabus.py   # writes SPMD305_Syllabus_Consolidated.docx
-python build_spmd306.py            # writes SPMD306_Syllabus_Consolidated.docx
-python build_spmd308.py            # writes SPMD308_Syllabus_Consolidated.docx
-# SPMD302a was built directly via python-docx by patching the KU template; see note below.
+python build_nutr401_format_syllabi.py    # writes all 4 .docx files
 ```
 
-Builder scripts include assertions enforcing: 5 CLOs all PLO-mapped, assessment weights sum to 100%, SPMD 308 practicum hours = 120.
+The builder enforces (via `assert`): 5 CLOs per course, PLO-count matches emphasis-count per CLO, assessment weights sum to exactly 100%. Output structure mirrors NUTR401 exactly: same section ordering, same bold-heading pattern, same IEEE numbered-bracket references, same 15-week Course Topics table (16 rows incl. header), same 6-row CLO matrix (header + 5 CLOs), same 11-row UG grading scheme, same verbatim Academic Integrity + Copyright + supplement-closing paragraphs.
 
 ## Quality bar / QA checklist
 
@@ -108,7 +105,10 @@ Each file verified against the approved-reference quality bar set by `SPMD301_Sy
 ## Provenance
 
 - Authored: 2026-05-18 by Claude Code 4-agent parallel-syllabus pipeline (skill `ku-syllabus-author`)
+- Reformatted: 2026-05-18 to match the NUTR401 UGCC-approved visual/structural pattern
 - Template source: `Syllabi_BSCND/Course Syllabus Template Updated Dec 2025.docx` (KU-mandated, Dec 2025 revision)
-- Quality reference: `Syllabi_BSCND/SPMD_Syllabi/SPMD301_Syllabus_Consolidated.docx` (UGCC-approved, Apr 2025)
+- Visual/structural reference: `Syllabi_BSCND/400-level/NUTR401_Syllabus_Consolidated.docx` (UGCC-approved 400-level template — the format every BSCND syllabus follows)
+- Content quality reference: `Syllabi_BSCND/SPMD_Syllabi/SPMD301_Syllabus_Consolidated.docx`
+- PLO model: 5 consolidated BSCND PLOs per `Syllabi_BSCND/PLO-CLO_Mapping_Matrix.pdf` (Jan 27 2026, "Post-Consolidation")
 - Stakeholder: Sara Almessabi (Health Educator, Falcon & Balsam, KU CMHS) — email 2026-05-18
 - Decision authority: Dr. Habiba Alsafar (Dean, CMHS); Dr. Kinda Khalaf (Associate Dean, UG Studies); Dr. Kartik Rangaraj (Period Director, Medical Education)
