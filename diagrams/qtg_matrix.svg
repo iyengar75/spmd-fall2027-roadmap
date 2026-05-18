@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="552" viewBox="0 0 1700 552" style="background:#ffffff">
+<rect x="0" y="0" width="1700" height="64" rx="4" fill="#003D7A" stroke="#003D7A" stroke-width="1" opacity="1.0"/>
+<text x="850.0" y="56.75" text-anchor="middle" fill="#FFFFFF" font-size="20" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">SPMD Minor → Fall 2027 Launch Roadmap  ·  Khalifa University BSCND</text>
+<rect x="0" y="64" width="120" height="52" rx="4" fill="#003D7A" stroke="#003D7A" stroke-width="1" opacity="1.0"/>
+<text x="60.0" y="111.2875" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Quarter</text>
+<rect x="0" y="116" width="120" height="160" rx="4" fill="#1A5BA8" stroke="#003D7A" stroke-width="1" opacity="1.0"/>
+<text x="60.0" y="257.1625" text-anchor="middle" fill="#FFFFFF" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">SPMD 301-304</text>
+<text x="60.0" y="272.01250000000005" text-anchor="middle" fill="#FFFFFF" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Sports Medicine</text>
+<text x="60.0" y="286.8625" text-anchor="middle" fill="#FFFFFF" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Minor</text>
+<rect x="0" y="276" width="120" height="160" rx="4" fill="#C8A04A" stroke="#C8A04A" stroke-width="1" opacity="1.0"/>
+<text x="60.0" y="417.1625" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">SPMD 305-308</text>
+<text x="60.0" y="432.01250000000005" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Sports &amp; Fitness</text>
+<text x="60.0" y="446.8625" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Coaching Conc.</text>
+<rect x="0" y="436" width="120" height="80" rx="4" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="1" opacity="1.0"/>
+<text x="60.0" y="511.65" text-anchor="middle" fill="#FFFFFF" font-size="12" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Gate</text>
+<rect x="120" y="64" width="280" height="52" rx="4" fill="#003D7A" stroke="#003D7A" stroke-width="1" opacity="1.0"/>
+<text x="260.0" y="111.65" text-anchor="middle" fill="#FFFFFF" font-size="12" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Q3 2026  (Jul–Sep 2026)</text>
+<rect x="120" y="116" width="280" height="160" rx="4" fill="#D0E4F7" stroke="#1A5BA8" stroke-width="1" opacity="1.0"/>
+<text x="260.0" y="257.1625" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Finalise &amp; submit</text>
+<text x="260.0" y="272.01250000000005" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">SPMD 301-304 UGCC packet</text>
+<text x="260.0" y="286.8625" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">(4 syllabi + PLO-CLO matrix)</text>
+<rect x="120" y="276" width="280" height="160" rx="4" fill="#FBF2DC" stroke="#C8A04A" stroke-width="1" opacity="1.0"/>
+<text x="260.0" y="417.1625" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Author SPMD 305-308 syllabi</text>
+<text x="260.0" y="432.01250000000005" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">(KU Course Template);</text>
+<text x="260.0" y="446.8625" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">benchmark ICREPs Lvl 3 PT</text>
+<ellipse cx="260.0" cy="468.0" rx="14.0" ry="14.0" fill="#C8A04A" stroke="#003D7A" stroke-width="2" opacity="1.0"/>
+<text x="260.0" y="498.125" text-anchor="middle" fill="#003D7A" font-size="10" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">UGCC Review</text>
+<text x="260.0" y="511.625" text-anchor="middle" fill="#003D7A" font-size="10" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">(Bundled 301-308)</text>
+<rect x="400" y="64" width="280" height="52" rx="4" fill="#1A5BA8" stroke="#003D7A" stroke-width="1" opacity="1.0"/>
+<text x="540.0" y="111.65" text-anchor="middle" fill="#FFFFFF" font-size="12" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Q4 2026  (Oct–Dec 2026)</text>
+<rect x="400" y="116" width="280" height="160" rx="4" fill="#D0E4F7" stroke="#1A5BA8" stroke-width="1" opacity="1.0"/>
+<text x="540.0" y="257.1625" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Respond to UGCC feedback;</text>
+<text x="540.0" y="272.01250000000005" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">ADEK Programme</text>
+<text x="540.0" y="286.8625" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Authorization draft</text>
+<rect x="400" y="276" width="280" height="160" rx="4" fill="#FBF2DC" stroke="#C8A04A" stroke-width="1" opacity="1.0"/>
+<text x="540.0" y="417.1625" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Submit SPMD 305-308 to UGCC</text>
+<text x="540.0" y="432.01250000000005" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">(post College Council</text>
+<text x="540.0" y="446.8625" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">endorsement)</text>
+<ellipse cx="540.0" cy="468.0" rx="14.0" ry="14.0" fill="#C8A04A" stroke="#003D7A" stroke-width="2" opacity="1.0"/>
+<text x="540.0" y="498.125" text-anchor="middle" fill="#003D7A" font-size="10" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">ADEK Auth (minor);</text>
+<text x="540.0" y="511.625" text-anchor="middle" fill="#003D7A" font-size="10" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">UGCC Approval</text>
+<text x="540.0" y="525.125" text-anchor="middle" fill="#003D7A" font-size="10" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">(concentration)</text>
+<rect x="680" y="64" width="280" height="52" rx="4" fill="#003D7A" stroke="#003D7A" stroke-width="1" opacity="1.0"/>
+<text x="820.0" y="111.65" text-anchor="middle" fill="#FFFFFF" font-size="12" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Q1 2027  (Jan–Mar 2027)</text>
+<rect x="680" y="116" width="280" height="160" rx="4" fill="#D0E4F7" stroke="#1A5BA8" stroke-width="1" opacity="1.0"/>
+<text x="820.0" y="257.1625" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">File SPMD Minor with</text>
+<text x="820.0" y="272.01250000000005" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">MoHESR / MoE per UAE</text>
+<text x="820.0" y="286.8625" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">programme approval process</text>
+<rect x="680" y="276" width="280" height="160" rx="4" fill="#FBF2DC" stroke="#C8A04A" stroke-width="1" opacity="1.0"/>
+<text x="820.0" y="417.1625" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Submit Sports &amp; Fitness</text>
+<text x="820.0" y="432.01250000000005" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Coaching Concentration</text>
+<text x="820.0" y="446.8625" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">to ADEK for authorization</text>
+<ellipse cx="820.0" cy="468.0" rx="14.0" ry="14.0" fill="#C8A04A" stroke="#003D7A" stroke-width="2" opacity="1.0"/>
+<text x="820.0" y="498.125" text-anchor="middle" fill="#003D7A" font-size="10" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">MoE / MoHESR</text>
+<text x="820.0" y="511.625" text-anchor="middle" fill="#003D7A" font-size="10" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Approval (minor);</text>
+<text x="820.0" y="525.125" text-anchor="middle" fill="#003D7A" font-size="10" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">ADEK intake</text>
+<rect x="960" y="64" width="280" height="52" rx="4" fill="#1A5BA8" stroke="#003D7A" stroke-width="1" opacity="1.0"/>
+<text x="1100.0" y="111.65" text-anchor="middle" fill="#FFFFFF" font-size="12" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Q2 2027  (Apr–Jun 2027)</text>
+<rect x="960" y="116" width="280" height="160" rx="4" fill="#D0E4F7" stroke="#1A5BA8" stroke-width="1" opacity="1.0"/>
+<text x="1100.0" y="257.1625" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Launch marketing; update</text>
+<text x="1100.0" y="272.01250000000005" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">UG catalog 2027-28;</text>
+<text x="1100.0" y="286.8625" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">student advising materials</text>
+<rect x="960" y="276" width="280" height="160" rx="4" fill="#FBF2DC" stroke="#C8A04A" stroke-width="1" opacity="1.0"/>
+<text x="1100.0" y="417.1625" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">KU Senate &amp; Board of</text>
+<text x="1100.0" y="432.01250000000005" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Trustees sign-off on</text>
+<text x="1100.0" y="446.8625" text-anchor="middle" fill="#1A1A1A" font-size="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Sports &amp; Fitness Conc.</text>
+<ellipse cx="1100.0" cy="468.0" rx="14.0" ry="14.0" fill="#C8A04A" stroke="#003D7A" stroke-width="2" opacity="1.0"/>
+<text x="1100.0" y="498.125" text-anchor="middle" fill="#003D7A" font-size="10" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">KU Board Sign-off;</text>
+<text x="1100.0" y="511.625" text-anchor="middle" fill="#003D7A" font-size="10" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Marketing Go-live</text>
+<rect x="1240" y="64" width="458" height="52" rx="4" fill="#C8A04A" stroke="#C8A04A" stroke-width="1" opacity="1.0"/>
+<text x="1469.0" y="111.65" text-anchor="middle" fill="#1A1A1A" font-size="12" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Q3 2027  (Jul–Sep 2027)</text>
+<rect x="1240" y="116" width="458" height="320" rx="4" fill="#003D7A" stroke="#003D7A" stroke-width="2" opacity="1.0"/>
+<text x="1469.0" y="369.8625" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">★  Fall 2027 Launch  ★</text>
+<text x="1469.0" y="387.4125" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto"></text>
+<text x="1469.0" y="404.96250000000003" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">SPMD 301 + SPMD 305</text>
+<text x="1469.0" y="422.51250000000005" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">First classes offered</text>
+<text x="1469.0" y="440.0625" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">September 2027</text>
+<text x="1469.0" y="457.6125" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto"></text>
+<text x="1469.0" y="475.1625" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">REPs UAE / ADSC</text>
+<text x="1469.0" y="492.71250000000003" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">alignment letter issued</text>
+<ellipse cx="1469.0" cy="468.0" rx="16.0" ry="16.0" fill="#C8A04A" stroke="#003D7A" stroke-width="2" opacity="1.0"/>
+<text x="1469.0" y="500.125" text-anchor="middle" fill="#003D7A" font-size="10" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Go-live ·</text>
+<text x="1469.0" y="513.625" text-anchor="middle" fill="#003D7A" font-size="10" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Fall 2027 Start</text>
+<line x1="400" y1="64" x2="400" y2="116" stroke="#003D7A" stroke-width="1" opacity="0.6"/>
+<line x1="400" y1="116" x2="400" y2="276" stroke="#003D7A" stroke-width="1" opacity="0.6"/>
+<line x1="400" y1="276" x2="400" y2="436" stroke="#003D7A" stroke-width="1" opacity="0.6"/>
+<line x1="400" y1="436" x2="400" y2="516" stroke="#003D7A" stroke-width="1" opacity="0.6"/>
+<line x1="680" y1="64" x2="680" y2="116" stroke="#003D7A" stroke-width="1" opacity="0.6"/>
+<line x1="680" y1="116" x2="680" y2="276" stroke="#003D7A" stroke-width="1" opacity="0.6"/>
+<line x1="680" y1="276" x2="680" y2="436" stroke="#003D7A" stroke-width="1" opacity="0.6"/>
+<line x1="680" y1="436" x2="680" y2="516" stroke="#003D7A" stroke-width="1" opacity="0.6"/>
+<line x1="960" y1="64" x2="960" y2="116" stroke="#003D7A" stroke-width="1" opacity="0.6"/>
+<line x1="960" y1="116" x2="960" y2="276" stroke="#003D7A" stroke-width="1" opacity="0.6"/>
+<line x1="960" y1="276" x2="960" y2="436" stroke="#003D7A" stroke-width="1" opacity="0.6"/>
+<line x1="960" y1="436" x2="960" y2="516" stroke="#003D7A" stroke-width="1" opacity="0.6"/>
+<line x1="1240" y1="64" x2="1240" y2="116" stroke="#003D7A" stroke-width="1" opacity="0.6"/>
+<line x1="1240" y1="116" x2="1240" y2="276" stroke="#003D7A" stroke-width="1" opacity="0.6"/>
+<line x1="1240" y1="276" x2="1240" y2="436" stroke="#003D7A" stroke-width="1" opacity="0.6"/>
+<line x1="1240" y1="436" x2="1240" y2="516" stroke="#003D7A" stroke-width="1" opacity="0.6"/>
+<line x1="1240" y1="64" x2="1240" y2="116" stroke="#003D7A" stroke-width="1" opacity="0.6"/>
+<line x1="1240" y1="116" x2="1240" y2="276" stroke="#003D7A" stroke-width="1" opacity="0.6"/>
+<line x1="1240" y1="276" x2="1240" y2="436" stroke="#003D7A" stroke-width="1" opacity="0.6"/>
+<line x1="1240" y1="436" x2="1240" y2="516" stroke="#003D7A" stroke-width="1" opacity="0.6"/>
+<rect x="0" y="516" width="1700" height="36" rx="4" fill="#F5F5F5" stroke="#CCCCCC" stroke-width="1" opacity="1.0"/>
+<text x="850.0" y="547.65" text-anchor="middle" fill="#1A1A1A" font-size="12" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" dominant-baseline="auto">Generated 2026-05-18  ·  KU CMHS BSCND  ·  Prepared by Dr. Carlo Raj</text>
+<rect x="0" y="0" width="1700" height="552" rx="4" fill="transparent" stroke="#003D7A" stroke-width="3" opacity="1.0"/>
+</svg>

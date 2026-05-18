@@ -1,0 +1,684 @@
+{
+  "program": {
+    "name": "BSc Clinical Nutrition & Dietetics",
+    "full_name": "Bachelor of Science in Clinical Nutrition and Dietetics",
+    "institution": "Khalifa University",
+    "college": "College of Medicine and Health Sciences (CMHS)",
+    "launch": "Fall 2027",
+    "target_intake": "September 2027",
+    "audience": "ADEK reviewers",
+    "total_credits_baseline": 124,
+    "total_credits_with_concentration": 136,
+    "qf_emirates_level": 6,
+    "adek_submission_version": "v5 ENHANCED",
+    "note": "BSCND 200-400 level syllabi approved by UGCC. SPMD Minor (SPMD 301-304) pending UGCC review. SPMD Concentration (SPMD 305-308) proposed \u2014 syllabi not yet authored."
+  },
+  "tracks": [
+    {
+      "id": "minor",
+      "name": "Sports Medicine Minor",
+      "credits_total": 18,
+      "courses": [
+        "SPMD301",
+        "SPMD301a",
+        "SPMD302",
+        "SPMD302a",
+        "SPMD303",
+        "SPMD304"
+      ],
+      "status": "pending UGCC review",
+      "icreps_eligible": false,
+      "note": "Six SPMD syllabi (four existing + two new inferred courses added 2026-05-18) consolidated and awaiting UGCC review. SPMD 301a + 302a added per Kinda Khalaf's request for an 18-credit strengthened minor. Athlete-centred and didactic; does not confer fitness-coach eligibility."
+    },
+    {
+      "id": "concentration",
+      "name": "Sports & Fitness Coaching Concentration",
+      "credits_total": 12,
+      "courses": [
+        "SPMD305",
+        "SPMD306",
+        "SPMD307",
+        "SPMD308"
+      ],
+      "status": "proposed (Habiba enquiry)",
+      "icreps_eligible": true,
+      "note": "Four new courses proposed May 2026 in response to Dr. Habiba Alsafar (Dean CMHS) inquiry. Syllabi NOT yet authored. Designed to close all REPs UAE / ICREPs Level 3 PT gaps."
+    }
+  ],
+  "bscnd_plos": [
+    {
+      "id": "PLO1",
+      "label": "Problem-Solving with Science",
+      "description": "Apply scientific principles and evidence-based nutrition science to assess, diagnose, and solve nutrition-related health problems across the lifespan.",
+      "qfemirates_alignment": "Knowledge"
+    },
+    {
+      "id": "PLO2",
+      "label": "System / Program Design",
+      "description": "Design, implement, and evaluate nutrition intervention programs and medical nutrition therapy protocols for individuals and populations.",
+      "qfemirates_alignment": "Skills \u2014 Problem Solving"
+    },
+    {
+      "id": "PLO3",
+      "label": "Experimentation & Data Analysis",
+      "description": "Conduct comprehensive nutrition assessment, interpret clinical and laboratory data, and evaluate intervention outcomes using appropriate research methods.",
+      "qfemirates_alignment": "Skills \u2014 Problem Solving"
+    },
+    {
+      "id": "PLO4",
+      "label": "Communication & Collaborative Practice",
+      "description": "Communicate effectively with patients, healthcare teams, and communities, and collaborate productively within interprofessional teams to deliver comprehensive nutrition care.",
+      "qfemirates_alignment": "Skills \u2014 Communication + Competence \u2014 Autonomy"
+    },
+    {
+      "id": "PLO5",
+      "label": "Ethics & Professional Responsibility",
+      "description": "Practice nutrition care with ethical integrity, cultural competence, and professional accountability in accordance with UAE and international standards.",
+      "qfemirates_alignment": "Competence \u2014 Responsibility"
+    }
+  ],
+  "courses": {
+    "SPMD301": {
+      "title": "Foundations of Sports Medicine",
+      "credits": 3,
+      "lecture_hours": 3,
+      "laboratory_hours": 0,
+      "level": 300,
+      "semester": "Y3 Fall",
+      "prerequisites": [
+        "BIOL 207: Human Physiology"
+      ],
+      "track": "minor",
+      "status": "pending UGCC review",
+      "textbook": "Prentice, W. E. (2021). Principles of Athletic Training (17th ed.). McGraw-Hill Education.",
+      "description": "Introduction to sports medicine concepts including anatomy of movement, biomechanics, common sports injuries, exercise physiology principles, and the interdisciplinary approach to athlete care. Covers tissue healing, injury mechanisms, and the roles of healthcare professionals within sports medicine teams. Prepares nutrition students to collaborate effectively with sports medicine professionals.",
+      "clos": [
+        "CLO1: Analyze human movement patterns in athletic populations using anatomical and biomechanical principles to determine injury risk factors.",
+        "CLO2: Analyze physiological responses and adaptations associated with acute exercise and chronic training across diverse sport modalities.",
+        "CLO3: Analyze common sports injuries with respect to mechanisms of injury, clinical presentation, and evidence-based treatment approaches.",
+        "CLO4: Evaluate the role of interdisciplinary sports medicine teams, including physicians, athletic trainers, physical therapists, and nutritionists, in comprehensive athlete care.",
+        "CLO5: Demonstrate professional communication skills related to sports medicine concepts in interactions with athletes, coaches, and healthcare providers."
+      ],
+      "plos": [
+        "PLO1",
+        "PLO2",
+        "PLO4"
+      ],
+      "ku_gelo": [
+        "ILO1",
+        "ILO3",
+        "ILO6",
+        "ILO9"
+      ],
+      "_inferred": false
+    },
+    "SPMD301a": {
+      "title": "Sports Anatomy & Injury Mechanics",
+      "credits": 3,
+      "semester": "Y3 Fall",
+      "track": "minor",
+      "_inferred": true,
+      "_inference_note": "Course added 2026-05-18 per Kinda Khalaf's request for an 18-credit strengthened minor. Faculty must validate.",
+      "description": "Foundations of musculoskeletal anatomy, biomechanical analysis of sports-related injury mechanisms, and integrated rehabilitation principles.",
+      "plos": [
+        "PLO1: Apply biomedical sciences foundations to nutrition practice",
+        "PLO2: Demonstrate professional skills relevant to clinical practice",
+        "PLO3: Critically evaluate scientific evidence"
+      ],
+      "clos": [
+        "Identify musculoskeletal structures relevant to common sports injuries",
+        "Analyze mechanical loading patterns associated with overuse and acute injury",
+        "Apply tissue-healing timelines to nutrition counseling for injured athletes",
+        "Critique current evidence on nutritional support of injury recovery"
+      ],
+      "ku_gelo": [
+        "GELO1 Knowledge & Understanding",
+        "GELO2 Cognitive Skills"
+      ]
+    },
+    "SPMD302": {
+      "title": "Exercise Physiology",
+      "credits": 3,
+      "lecture_hours": 3,
+      "laboratory_hours": 0,
+      "level": 300,
+      "semester": "Y3 Spring",
+      "prerequisites": [
+        "BIOL 207: Human Physiology"
+      ],
+      "track": "minor",
+      "status": "pending UGCC review",
+      "textbook": "Kenney, W. L., Wilmore, J. H., & Costill, D. L. (2022). Physiology of Sport and Exercise (8th ed.). Human Kinetics.",
+      "description": "Acute and chronic physiological responses to exercise including cardiovascular, respiratory, metabolic, neuromuscular, and endocrine adaptations. Covers bioenergetics, training principles, and environmental physiology as they relate to athletic performance and health. Provides foundation for understanding the interaction between exercise training and nutrition.",
+      "clos": [
+        "CLO1: Apply principles of bioenergetics to explanations of ATP production, energy system contributions, and metabolic responses across varying exercise intensities and durations.",
+        "CLO2: Analyze cardiovascular, respiratory, neuromuscular, and endocrine adaptations associated with aerobic and anaerobic training.",
+        "CLO3: Conduct exercise physiology assessments, including VO2max testing, lactate threshold determination, and body composition analysis.",
+        "CLO4: Evaluate the effects of environmental conditions, including heat, cold, and altitude, on exercise performance and physiological adaptation strategies.",
+        "CLO5: Design evidence-based training programs to optimize physiological adaptations for specific performance goals."
+      ],
+      "plos": [
+        "PLO1",
+        "PLO2",
+        "PLO3"
+      ],
+      "ku_gelo": [
+        "ILO2",
+        "ILO3",
+        "ILO8",
+        "ILO9"
+      ],
+      "_inferred": false
+    },
+    "SPMD302a": {
+      "title": "Exercise Physiology Lab",
+      "credits": 3,
+      "semester": "Y3 Spring",
+      "track": "minor",
+      "_inferred": true,
+      "_inference_note": "Course added 2026-05-18 per Kinda Khalaf's request for an 18-credit strengthened minor. Faculty must validate.",
+      "description": "Hands-on laboratory in metabolic, cardiovascular, and neuromuscular responses to exercise; data interpretation for individualized nutrition plans.",
+      "plos": [
+        "PLO1: Apply biomedical sciences foundations to nutrition practice",
+        "PLO2: Demonstrate professional skills relevant to clinical practice",
+        "PLO5: Function effectively within multidisciplinary teams"
+      ],
+      "clos": [
+        "Conduct standardized exercise testing protocols",
+        "Interpret VO2max, RER, and lactate-threshold data in context of nutrition planning",
+        "Apply heart-rate and load metrics to fueling-strategy design",
+        "Communicate lab findings to athletes and multidisciplinary teams"
+      ],
+      "ku_gelo": [
+        "GELO1 Knowledge & Understanding",
+        "GELO2 Cognitive Skills",
+        "GELO5 Teamwork & Leadership"
+      ]
+    },
+    "SPMD303": {
+      "title": "Injury Prevention & Rehabilitation",
+      "credits": 3,
+      "lecture_hours": 3,
+      "laboratory_hours": 0,
+      "level": 300,
+      "semester": "Y3 Spring",
+      "prerequisites": [
+        "SPMD301: Foundations of Sports Medicine"
+      ],
+      "prerequisite_note": "Source docx has typo BMED301; corrected to SPMD301.",
+      "track": "minor",
+      "status": "pending UGCC review",
+      "textbook": "Tyler, T. F., & McHugh, M. P. (2020). Sports Injury Prevention and Rehabilitation. Routledge.",
+      "description": "Principles of sports injury prevention and evidence-based rehabilitation approaches including screening methods, injury risk assessment, prevention program design, and rehabilitation progressions for common athletic injuries. Emphasises interdisciplinary collaboration and the role of nutrition in tissue healing and return-to-play decision making.",
+      "clos": [
+        "CLO1: Apply evidence-based screening tools and movement assessments for the identification of injury risk factors and biomechanical deficiencies in athletes.",
+        "CLO2: Design injury prevention programs that integrate strength training, flexibility, neuromuscular control, and sport-specific conditioning.",
+        "CLO3: Analyze healing processes and phases of tissue repair relevant to rehabilitation progression for common sports injuries.",
+        "CLO4: Evaluate therapeutic modalities, manual therapy techniques, and exercise interventions used in sports injury rehabilitation.",
+        "CLO5: Collaborate with sports medicine professionals within return-to-play protocols to support safe athlete progression."
+      ],
+      "plos": [
+        "PLO1",
+        "PLO2",
+        "PLO4"
+      ],
+      "ku_gelo": [
+        "ILO2",
+        "ILO3",
+        "ILO9",
+        "ILO12"
+      ],
+      "_inferred": false
+    },
+    "SPMD304": {
+      "title": "Performance Assessment & Technology",
+      "credits": 3,
+      "lecture_hours": 2,
+      "laboratory_hours": 1,
+      "lab_minutes_per_week": 150,
+      "level": 300,
+      "semester": "Y4 Fall",
+      "prerequisites": [
+        "SPMD302: Exercise Physiology"
+      ],
+      "prerequisite_note": "Source docx has typo BMED302; corrected to SPMD302. _data.json in BSCND_KU_Mapping showed credits: 0 \u2014 confirmed data entry error; actual 3 credits per syllabus header.",
+      "track": "minor",
+      "status": "pending UGCC review",
+      "textbook": "Haff, G. G., & Triplett, N. T. (2016). Essentials of Strength Training and Conditioning (4th ed.). Human Kinetics.",
+      "description": "Assessment methods and emerging technologies for evaluating athletic performance. Provides hands-on laboratory experience with biomechanical analysis, fitness testing, wearable technology, and data analytics for athlete monitoring. Emphasis on performance assessment, data interpretation, and integration of technology into sports science and nutrition practice.",
+      "clos": [
+        "CLO1: Apply biomechanical analysis techniques, including force platforms, motion capture, and electromyography, to assessments of movement quality and sport-specific performance.",
+        "CLO2: Conduct comprehensive fitness assessments using standardized protocols for strength, power, speed, agility, and endurance.",
+        "CLO3: Analyze performance data through statistical methods for training recommendations and athlete progress tracking.",
+        "CLO4: Evaluate emerging athlete-monitoring technologies, including wearable sensors, GPS tracking, and heart rate variability monitors, for performance optimization.",
+        "CLO5: Design technology-enhanced performance monitoring systems that integrate physiological, biomechanical, and training load data."
+      ],
+      "plos": [
+        "PLO1",
+        "PLO2",
+        "PLO3"
+      ],
+      "ku_gelo": [
+        "ILO2",
+        "ILO3",
+        "ILO7",
+        "ILO10"
+      ],
+      "_inferred": false
+    },
+    "SPMD305": {
+      "title": "Personal Training & Exercise Programme Design",
+      "credits": 3,
+      "lecture_hours": 2,
+      "laboratory_hours": 1,
+      "lab_minutes_per_week": 150,
+      "level": 300,
+      "semester": "Y3 Fall",
+      "prerequisites": [
+        "SPMD301: Foundations of Sports Medicine"
+      ],
+      "track": "concentration",
+      "status": "proposed \u2014 syllabus not yet authored",
+      "icreps_alignment": "ICREPs Level 3 PT \u2014 Unit 'Programme Design' + 'Apply Principles of Training'",
+      "pptx_modules_addressed": [
+        "Training theory",
+        "Weight trainings",
+        "Equipment trainings",
+        "Individual teaching"
+      ],
+      "reps_gaps_closed": [
+        "Exercise programme design for general-population clients",
+        "Periodization & strength-conditioning programming"
+      ],
+      "description": "Client-centred exercise prescription for general-population and athletic clients, translating exercise physiology principles into applied personal-training practice. Covers needs analysis, FITT-VP model, periodization models, general-population programme design, special populations (elderly, pregnant, chronic disease), programme monitoring and adjustment. Laboratory component delivers hands-on weight and equipment training instruction.",
+      "clos": [
+        "CLO1: Apply the FITT-VP model and periodization principles to design client-centred exercise programmes for general-population and athletic clients at QFEmirates Level 6.",
+        "CLO2: Conduct structured needs analysis and fitness assessments to inform individualized programme prescription across age groups and health status.",
+        "CLO3: Demonstrate safe and effective technique instruction for resistance, cardiovascular, and functional training equipment in a supervised gym environment.",
+        "CLO4: Evaluate and adjust exercise programmes based on client progress data, training load metrics, and evidence-based adaptation principles.",
+        "CLO5: Integrate sports nutrition knowledge with exercise prescription to optimise client outcomes across fitness, weight management, and performance goals."
+      ],
+      "plos": [
+        "PLO1",
+        "PLO2",
+        "PLO3"
+      ],
+      "ku_gelo": [
+        "ILO2",
+        "ILO3",
+        "ILO9",
+        "ILO10"
+      ],
+      "_inferred": true,
+      "_inference_note": "Title, structure, and ICREPs alignment sourced from _analysis.json proposed_new_courses and Habibia_SPMD.pdf table. CLOs inferred from ICREPs Level 3 PT competency units + gap analysis in _analysis.json. Syllabus not yet authored."
+    },
+    "SPMD306": {
+      "title": "Group Fitness, Stretching & Conditioning Instruction",
+      "credits": 3,
+      "lecture_hours": 1,
+      "laboratory_hours": 2,
+      "lab_minutes_per_week": 300,
+      "level": 300,
+      "semester": "Y3 Spring",
+      "prerequisites": [
+        "SPMD302: Exercise Physiology"
+      ],
+      "track": "concentration",
+      "status": "proposed \u2014 syllabus not yet authored",
+      "icreps_alignment": "REPs UAE Group Fitness Instructor + ICREPs Level 2/3 Group Fitness Instructor",
+      "pptx_modules_addressed": [
+        "Group teaching",
+        "Gymnastics",
+        "Athletics",
+        "Ball sports (adapted)"
+      ],
+      "reps_gaps_closed": [
+        "Group-fitness instruction methodology",
+        "Stretching and flexibility instruction",
+        "Workout supervision and form correction"
+      ],
+      "description": "Practical instructor skills for designing and leading group fitness classes, structured flexibility and stretching sessions, and conditioning programmes for diverse populations. Covers group exercise class design, cueing methodology, music-driven exercise sequencing, safety and liability in group settings, and REPs UAE Group Fitness Instructor competencies. Heavy laboratory weighting (300 min/wk) provides direct teaching practicum.",
+      "clos": [
+        "CLO1: Plan and deliver group fitness classes applying evidence-based programming, cueing, and safety principles for mixed-ability participants at QFEmirates Level 6.",
+        "CLO2: Design and instruct structured flexibility and stretching protocols appropriate to diverse client populations, using anatomically sound progressions.",
+        "CLO3: Demonstrate safe exercise instruction methodology including movement demonstration, verbal cueing, visual monitoring, and real-time correction.",
+        "CLO4: Evaluate participant responses during group sessions and modify intensity, complexity, and progression to ensure inclusive, evidence-based instruction.",
+        "CLO5: Apply UAE regulatory requirements for group fitness instructors, including REPs UAE Group Fitness Instructor registration competencies and professional conduct standards."
+      ],
+      "plos": [
+        "PLO2",
+        "PLO4",
+        "PLO5"
+      ],
+      "ku_gelo": [
+        "ILO6",
+        "ILO9",
+        "ILO12",
+        "ILO14"
+      ],
+      "_inferred": true,
+      "_inference_note": "Title, structure (1L+2Lab), semester (Y3 Spring), and prerequisite sourced from _analysis.json proposed_new_courses and Habibia_SPMD.pdf. CLOs inferred from REPs UAE GFI competency framework + Dr. Habiba's explicit 'teaching stretching and conditioning techniques' clause. Syllabus not yet authored."
+    },
+    "SPMD307": {
+      "title": "Fitness Coaching, Behaviour Change & Business of Fitness",
+      "credits": 3,
+      "lecture_hours": 3,
+      "laboratory_hours": 0,
+      "level": 400,
+      "semester": "Y4 Fall",
+      "prerequisites": [
+        "SPMD305: Personal Training & Exercise Programme Design"
+      ],
+      "track": "concentration",
+      "status": "proposed \u2014 syllabus not yet authored",
+      "icreps_alignment": "ICREPs Level 3 PT \u2014 Unit 'Client Consultation & Behaviour Change' + 'Professional Practice'",
+      "pptx_modules_addressed": [
+        "Psychology",
+        "Pedagogy",
+        "Wellness science",
+        "Teaching theory"
+      ],
+      "reps_gaps_closed": [
+        "Behaviour-change & client-communication competencies",
+        "Business of fitness \u2014 scope of practice, ethics, liability, freelancing/club operations"
+      ],
+      "description": "Integrates coaching psychology, behaviour change theory, and business practice for fitness professionals operating in the UAE market. Covers Transtheoretical Model, Motivational Interviewing, and Self-Determination Theory applied to fitness client coaching; scope of practice; professional ethics and liability; freelance and employed business models; and UAE-specific regulatory environment including REPs UAE, ADSC, and DSC requirements. Prepares students for the professional practice component of REPs UAE registration.",
+      "clos": [
+        "CLO1: Apply behaviour-change theories (Transtheoretical Model, Motivational Interviewing, Self-Determination Theory) to design client-centred coaching strategies for diverse fitness populations at QFEmirates Level 6.",
+        "CLO2: Analyse the UAE fitness industry regulatory framework, including REPs UAE, ADSC, and DSC requirements, and apply scope-of-practice boundaries for fitness professionals.",
+        "CLO3: Evaluate professional ethics, liability, informed consent, and confidentiality obligations governing fitness coaches in Abu Dhabi and UAE free-zone contexts.",
+        "CLO4: Design a sustainable business model for a fitness coaching practice, including pricing structures, client acquisition, insurance, and MoHRE / DED licensing considerations.",
+        "CLO5: Integrate nutrition counselling (within Dietitian scope) and fitness coaching into a holistic client management plan, differentiating professional roles and referral pathways."
+      ],
+      "plos": [
+        "PLO1",
+        "PLO4",
+        "PLO5"
+      ],
+      "ku_gelo": [
+        "ILO5",
+        "ILO6",
+        "ILO9",
+        "ILO14"
+      ],
+      "_inferred": true,
+      "_inference_note": "Title, structure (3L), level (400), semester (Y4 Fall), and prerequisite sourced from _analysis.json. CLOs inferred from ICREPs Level 3 PT professional practice unit, PPTX psychology/pedagogy/wellness modules, and UAE regulatory chain in memory/reference files. PLO1 included because CLO1 applies evidence-based behaviour-change science (knowledge domain). Syllabus not yet authored."
+    },
+    "SPMD308": {
+      "title": "Fitness Coaching Practicum & REPs UAE Certification Capstone",
+      "credits": 3,
+      "lecture_hours": 1,
+      "laboratory_hours": 0,
+      "supervised_hours": 200,
+      "embedded_certifications": [
+        "CPR/AED (Heart & Stroke / Red Crescent)",
+        "First Aid"
+      ],
+      "level": 400,
+      "semester": "Y4 Spring",
+      "prerequisites": [
+        "SPMD306: Group Fitness, Stretching & Conditioning Instruction",
+        "SPMD307: Fitness Coaching, Behaviour Change & Business of Fitness"
+      ],
+      "track": "concentration",
+      "status": "proposed \u2014 syllabus not yet authored",
+      "icreps_alignment": "ICREPs Level 3 PT \u2014 Unit 'Practical Coaching Hours' + 'First Aid'; REPs UAE Personal Trainer registration documentation",
+      "pptx_modules_addressed": [
+        "CPR / First Aid",
+        "Internship 8 weeks every semester (adapted as 200 hr placement)"
+      ],
+      "reps_gaps_closed": [
+        "Documented fitness-industry CV with practical hours",
+        "CPR/First Aid certification",
+        "REPs UAE registration submission"
+      ],
+      "description": "Capstone practicum course completing all REPs UAE registration requirements. Students complete 200 supervised personal-training and group-fitness hours at REPs-affiliated health clubs (e.g., Fitness First, Gold's Gym, NAS Sports Complex Abu Dhabi). Embedded external CPR/AED/First Aid certification (Heart & Stroke or UAE Red Crescent). REPs UAE Personal Trainer portfolio assembled and submitted. Weekly seminars address professional reflective practice, case documentation, and transition to qualified fitness professional.",
+      "clos": [
+        "CLO1: Demonstrate competent delivery of individualised personal-training sessions and group fitness instruction across 200 supervised practice hours in REPs-affiliated fitness facilities at QFEmirates Level 6.",
+        "CLO2: Apply CPR, AED, and First Aid protocols to simulated and real emergency scenarios, achieving external certification from a recognised provider (Heart & Stroke Foundation / UAE Red Crescent).",
+        "CLO3: Assemble a complete REPs UAE Personal Trainer registration portfolio including qualifications evidence, practical hours log, CPR/First Aid certificate, and professional CV.",
+        "CLO4: Critically reflect on supervised practice experiences using structured professional learning frameworks, identifying strengths, gaps, and continuing professional development goals.",
+        "CLO5: Integrate dietetics and fitness coaching competencies to design and communicate holistic health plans, demonstrating the unique dual-credential value of the BSCND + Concentration qualification."
+      ],
+      "plos": [
+        "PLO2",
+        "PLO3",
+        "PLO4",
+        "PLO5"
+      ],
+      "ku_gelo": [
+        "ILO6",
+        "ILO11",
+        "ILO12",
+        "ILO14",
+        "ILO15"
+      ],
+      "_inferred": true,
+      "_inference_note": "Title, structure (1L + 200 supervised hrs + CPR/AED embedded), level (400), semester (Y4 Spring), and prerequisites sourced from _analysis.json. CLOs inferred from ICREPs Level 3 PT practical coaching hours unit, REPs UAE registration requirements (repsuae.com), and PPTX CPR/internship modules. Partner facilities named in _analysis.json approval_path step 7. Syllabus not yet authored."
+    }
+  },
+  "phases": [
+    {
+      "q": "Q3 2026",
+      "label": "Authoring & UGCC Submission",
+      "date_range": "Jul\u2013Sep 2026",
+      "deliverables": {
+        "minor": "Finalise and submit consolidated UGCC packet for SPMD 301-304 (four syllabi + PLO-CLO matrix + degree plan update)",
+        "concentration": "Author SPMD 305-308 syllabi using KU Course Syllabus Template (Dec 2025); benchmark against ICREPs Level 3 PT competencies; update BSCND curriculum document and PLO-CLO matrix"
+      },
+      "gate": "UGCC review (bundled submission: SPMD 301-308 in single cycle)",
+      "owner": "Dr. Carlo Raj + SPMD program faculty + CMHS College Council",
+      "decision_maker": "UGCC Chair",
+      "key_actions": [
+        "Secure CMHS Dean (Dr. Habiba Alsafar) endorsement of Option A (Sports & Fitness Coaching Concentration)",
+        "Assign SPMD308 practicum placement officer; open dialogue with REPs-affiliated Abu Dhabi clubs",
+        "Submit BSCND curriculum update with 4-year plan showing SPMD 301-308 placement"
+      ]
+    },
+    {
+      "q": "Q4 2026",
+      "label": "ADEK Draft & Concentration UGCC",
+      "date_range": "Oct\u2013Dec 2026",
+      "deliverables": {
+        "minor": "Respond to UGCC feedback; prepare ADEK Program Authorization draft package for SPMD 301-304",
+        "concentration": "Submit SPMD 305-308 to UGCC following CMHS College Council endorsement"
+      },
+      "gate": "ADEK Program Authorization (minor track); UGCC approval (concentration track)",
+      "owner": "Program Director (BSCND) + Quality Assurance / Office of the Provost",
+      "decision_maker": "ADEK Program Authorization Committee",
+      "key_actions": [
+        "Update CHEDS / ADEK programme files with SPMD minor data",
+        "Flag SPMD concentration for next ADEK review cycle",
+        "Initiate formal REPs UAE liaison correspondence re: ICREPs alignment of SPMD 305-308"
+      ]
+    },
+    {
+      "q": "Q1 2027",
+      "label": "MoHESR/MoE Filing & ADEK Concentration Submission",
+      "date_range": "Jan\u2013Mar 2027",
+      "deliverables": {
+        "minor": "File SPMD Minor with MoHESR / Ministry of Education per UAE programme approval process",
+        "concentration": "Submit Sports & Fitness Coaching Concentration to ADEK for authorization"
+      },
+      "gate": "MoE / MoHESR approval (minor); ADEK intake of concentration file",
+      "owner": "KU Strategic Accreditation Unit (Affairs & Foresight Division)",
+      "decision_maker": "MoHESR Programme Approval Committee",
+      "key_actions": [
+        "Confirm BSCND credits 124 \u2192 136 reflected in MoHESR programme specification",
+        "Ensure SPMD308 practicum site MoUs are in place for ADEK concentration submission",
+        "Provide evidence of ICREPs / REPs UAE engagement in ADEK concentration file"
+      ]
+    },
+    {
+      "q": "Q2 2027",
+      "label": "Marketing & KU Senate / Board Sign-off",
+      "date_range": "Apr\u2013Jun 2027",
+      "deliverables": {
+        "minor": "Launch marketing for SPMD Minor; update undergraduate catalog 2027-28; student advising materials",
+        "concentration": "KU Senate and Board of Trustees sign-off on Sports & Fitness Coaching Concentration"
+      },
+      "gate": "KU Senate / Board sign-off on concentration; marketing go-live",
+      "owner": "Student Affairs / Enrollment Management; University Registrar",
+      "decision_maker": "KU Board of Trustees",
+      "key_actions": [
+        "Update KU undergraduate catalog 2027-28 with SPMD 301-304 minor and SPMD 305-308 concentration",
+        "Train academic advisors on dual-track SPMD offering and REPs UAE pathway",
+        "Publish REPs UAE registration information for prospective students"
+      ]
+    },
+    {
+      "q": "Q3 2027",
+      "label": "Fall 2027 Launch",
+      "date_range": "Jul\u2013Sep 2027",
+      "deliverables": {
+        "minor": "SPMD 301 and SPMD 305 first classes offered \u2014 September 2027",
+        "concentration": "SPMD 305 and SPMD 306 first classes offered alongside minor courses \u2014 September 2027"
+      },
+      "gate": "Go-live \u2014 Fall 2027 semester start + REPs UAE / ADSC alignment letter issued",
+      "owner": "Dr. Carlo Raj (Program Director) + SPMD Course Coordinators",
+      "decision_maker": "CMHS Dean + KU Provost",
+      "key_actions": [
+        "Obtain REPs UAE / ADSC alignment letter confirming SPMD 305-308 maps to ICREPs Level 3 PT competencies",
+        "Launch SPMD308 practicum partnerships with Fitness First, Gold's Gym, NAS Sports Complex Abu Dhabi",
+        "Post first cohort enrollment in SPMD 301, SPMD 302, SPMD 305, SPMD 306 \u2014 September 2027"
+      ]
+    }
+  ],
+  "regulators": {
+    "REPs UAE": {
+      "full_name": "Register of Exercise Professionals UAE",
+      "name_ar": "\u0633\u062c\u0644 \u0627\u0644\u0645\u062e\u062a\u0635\u064a\u0646 \u0641\u064a \u0627\u0644\u0631\u064a\u0627\u0636\u0629",
+      "url": "https://www.repsuae.com",
+      "level": "National operational register",
+      "scope": "Mandatory registration body for UAE exercise professionals. Issues UAE Trainer ID Card. Operates under ICREPs global standards, initiated by Dubai Sports Council. Categories: Personal Trainer, Gym Instructor, Group Fitness Instructor, Yoga, Pilates, Aqua Fitness, Children's Fitness, Advanced Exercise Specialist. Annual fee: AED 450 + VAT (PT/Gym/Pilates/Yoga); AED 400 + VAT (Group Fitness/Aqua).",
+      "tier": "Tier 1 \u2014 Primary professional registration (mandatory before employment in UAE gyms/health clubs)",
+      "requirements": [
+        "ICREPs-accredited Level 3 PT qualification (or NASM, ISSA, Active IQ Level 3, EuropeActive/EREPS-recognised equivalent)",
+        "Current First Aid / CPR certificate",
+        "Documented fitness-industry CV with practical coaching hours"
+      ],
+      "alignment": {
+        "SPMD305": "Maps to ICREPs Level 3 PT 'Programme Design' + 'Apply Principles of Training' competency units",
+        "SPMD306": "Maps to REPs UAE Group Fitness Instructor category competencies (ICREPs Level 2/3 GFI)",
+        "SPMD307": "Maps to ICREPs Level 3 PT 'Client Consultation & Behaviour Change' + 'Professional Practice' units",
+        "SPMD308": "Delivers the ICREPs Level 3 PT 'Practical Coaching Hours' unit (200 hrs) + First Aid certification; completes REPs UAE PT registration portfolio"
+      }
+    },
+    "ADSC": {
+      "full_name": "Abu Dhabi Sports Council",
+      "name_ar": "\u0645\u062c\u0644\u0633 \u0623\u0628\u0648\u0638\u0628\u064a \u0627\u0644\u0631\u064a\u0627\u0636\u064a",
+      "url": "https://adsc.ae",
+      "level": "Emirate (Abu Dhabi)",
+      "scope": "Emirate-level sports regulator for Abu Dhabi. Has issued circulars to all Abu Dhabi health clubs requiring REPs UAE registration for all fitness instructors. Critically relevant to KU graduates (KU is in Abu Dhabi). Enforces REPs UAE compliance at club/facility level.",
+      "tier": "Tier 2 \u2014 Emirate enforcement body (delegates individual registration to REPs UAE)",
+      "alignment": {
+        "SPMD307": "UAE regulatory environment (REPs UAE, ADSC, DSC) covered explicitly in CLO2 \u2014 scope of practice and regulatory compliance for Abu Dhabi fitness professionals",
+        "SPMD308": "Practicum placements in ADSC-overseen Abu Dhabi facilities; alignment letter from ADSC expected at Q3 2027 gate"
+      }
+    },
+    "DSC": {
+      "full_name": "Dubai Sports Council",
+      "name_ar": "\u0645\u062c\u0644\u0633 \u062f\u0628\u064a \u0627\u0644\u0631\u064a\u0627\u0636\u064a",
+      "url": "https://www.dubaisc.ae",
+      "level": "Emirate (Dubai)",
+      "scope": "Originator of REPs UAE. Emirate-level sports regulator for Dubai. Has issued mandatory registration circular to all Dubai health clubs. Delegates individual trainer registration to REPs UAE. Relevant to graduates seeking employment in Dubai-based gyms.",
+      "tier": "Tier 2 \u2014 Emirate enforcement body (originated REPs UAE framework)",
+      "alignment": {
+        "SPMD307": "UAE regulatory environment module covers DSC circular requirements and cross-emirate practice implications for BSCND graduates seeking employment in Dubai",
+        "SPMD308": "Graduates holding REPs UAE ID card (obtained through SPMD308) are compliant with both ADSC and DSC club requirements"
+      }
+    },
+    "GAS": {
+      "full_name": "General Authority of Sports / Ministry of Sport",
+      "name_ar": "\u0648\u0632\u0627\u0631\u0629 \u0627\u0644\u0631\u064a\u0627\u0636\u0629 / \u0627\u0644\u0647\u064a\u0626\u0629 \u0627\u0644\u0639\u0627\u0645\u0629 \u0644\u0644\u0631\u064a\u0627\u0636\u0629",
+      "url": "https://gas.gov.ae/en",
+      "level": "Federal",
+      "scope": "Federal regulator of the UAE sports sector under Federal Decree-Law No. 4 of 2023 and Federal Decree No. 28 of 2024. Responsible for strategic planning, accreditation of sports entities and federations, and financial/administrative oversight of national sports bodies. Licenses sports entities, NOT individual trainers. Individual regulation delegated to emirate councils.",
+      "tier": "Tier 3 \u2014 Federal entity-level regulator (not directly applicable to individual trainers)",
+      "alignment": {
+        "SPMD307": "Federal Decree-Law No. 4/2023 and UAE sports governance framework covered as background context in the UAE regulatory environment module",
+        "SPMD305": "GAS strategic framing of sports and fitness as a national priority sector provides programme rationale context for ADEK submission"
+      }
+    },
+    "DoH": {
+      "full_name": "Department of Health Abu Dhabi",
+      "name_ar": "\u062f\u0627\u0626\u0631\u0629 \u0627\u0644\u0635\u062d\u0629 - \u0623\u0628\u0648\u0638\u0628\u064a",
+      "url": "https://www.doh.gov.ae",
+      "level": "Emirate health regulator (Abu Dhabi)",
+      "scope": "Licenses healthcare professionals in Abu Dhabi via Professional Qualification Requirements (PQR) framework. Issues Dietitian licence (Bachelor degree + 2 years experience + DoH exam). Personal Trainer / Fitness Coach is NOT a DoH-licensed profession. DoH Dietitian licence required separately if graduates offer nutrition counselling services.",
+      "tier": "Tier 1 \u2014 Primary professional registration for Dietitian pathway (parallel credential, not fitness coaching)",
+      "alignment": {
+        "SPMD307": "CLO5 explicitly differentiates Dietitian scope (DoH licence required for nutrition counselling) from fitness coach scope (REPs UAE registration); students learn referral boundaries",
+        "SPMD308": "Capstone CLO5 demonstrates integrated dual-credential value: BSCND graduates hold unique DoH-eligible Dietitian qualification AND REPs UAE fitness coach registration"
+      }
+    },
+    "MoHRE": {
+      "full_name": "Ministry of Human Resources & Emiratisation",
+      "name_ar": "\u0648\u0632\u0627\u0631\u0629 \u0627\u0644\u0645\u0648\u0627\u0631\u062f \u0627\u0644\u0628\u0634\u0631\u064a\u0629 \u0648\u0627\u0644\u062a\u0648\u0637\u064a\u0646",
+      "url": "https://www.mohre.gov.ae",
+      "level": "Federal / Emirate commercial",
+      "scope": "MoHRE issues work permit/visa for employed trainers (employer-sponsored). DED (Department of Economic Development) or free-zone authority issues trade licence for self-employed fitness coaches. Separate from professional registration with REPs UAE \u2014 covers commercial/employment side of fitness practice.",
+      "tier": "Tier 3 \u2014 Commercial/employment compliance (parallel to professional registration)",
+      "alignment": {
+        "SPMD307": "Business of Fitness module covers MoHRE work permit requirements, DED/free-zone trade licence options for self-employed coaches, and Emiratisation targets for sports sector",
+        "SPMD308": "Students completing practicum placement are oriented to MoHRE employment documentation requirements for post-graduation employment"
+      }
+    }
+  },
+  "qfemirates_level": 6,
+  "ku_brand": {
+    "navy": "#003D7A",
+    "gold": "#C8A04A",
+    "white": "#FFFFFF",
+    "font_heading": "Helvetica Neue Bold",
+    "font_body": "Helvetica Neue Regular"
+  },
+  "stakeholders": {
+    "dean_cmhs": {
+      "name": "Dr. Habiba Alsafar",
+      "role": "Dean, College of Medicine and Health Sciences",
+      "email": "habiba.alsafar@ku.ac.ae"
+    },
+    "assoc_dean_ug": {
+      "name": "Kinda Khalaf",
+      "role": "Associate Dean of Undergraduate Studies, CMHS",
+      "email": "kinda.khalaf@ku.ac.ae"
+    },
+    "period_director": {
+      "name": "Kartik Rangaraj",
+      "role": "Period Director, Medical Education Period 1,2 (Assistant Professor, Medical Sciences)",
+      "email": "kartik.rangaraj@ku.ac.ae"
+    },
+    "health_educator": {
+      "name": "Sara Saleh Ahmed Almessabi",
+      "role": "Health Educator, Falcon & Balsam",
+      "email": "sara.almessabi@ku.ac.ae"
+    },
+    "program_coordinator": {
+      "name": "Julie Angela Brazzatti",
+      "role": "BSCND Program Coordinator",
+      "email": "julie.brazzatti@ku.ac.ae"
+    }
+  },
+  "physical_manager_benchmark": {
+    "source": "Cseh, K. (2018). Physical Manager Program Plan. [PowerPoint presentation].",
+    "path": "/mnt/c/Users/TPOTMedXR/Desktop/SPMD_BSCND/PHYSICAL MANAGER PROGRAM PLAN.pptx",
+    "verdict": "Level 1 BSc content (training theory, weight/equipment training, CPR/First Aid) addressed by SPMD305 + SPMD308. Level 2 Intermediate content (teaching theory, psychology, pedagogy, group/individual teaching) addressed by SPMD306 + SPMD307. Level 3 MSc content (internal medicine, neurology, physiotherapy, manual therapies) is out of scope \u2014 requires separate MSc programme. Sport-specific practicals (gymnastics, swimming, athletics, ball sports) are intentionally excluded \u2014 BSCND is not a PE programme."
+  },
+  "generated_at": "2026-05-18",
+  "generated_by": "Agent A7 (SPMD roadmap pipeline \u2014 Wave 3 regen at 18 credits)",
+  "pipeline_version": "Wave 3 / A7",
+  "downstream_consumers": [
+    "A2 \u2014 ADEK timeline Gantt",
+    "A3 \u2014 PLO-CLO matrix builder",
+    "A4 \u2014 UGCC packet drafter",
+    "A5 \u2014 executive summary"
+  ],
+  "known_data_issues": [
+    "SPMD304 credits listed as 0 in BSCND_KU_Mapping/_data.json \u2014 confirmed error; corrected to 3 in this file based on syllabus header",
+    "SPMD303 prerequisite listed as BMED301 in source docx \u2014 corrected to SPMD301",
+    "SPMD304 prerequisite listed as BMED302 in source docx \u2014 corrected to SPMD302",
+    "SPMD305-308 course CLOs and PLO mappings are inferred (_inferred: true) \u2014 require faculty review and formal syllabus authoring before UGCC submission",
+    "SPMD 301a + 302a authored 2026-05-18; faculty must validate per _inferred:true flag"
+  ]
+}

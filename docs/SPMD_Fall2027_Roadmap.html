@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SPMD Minor &rarr; Fall 2027 ADEK Roadmap &mdash; Khalifa University CMHS</title>
+  <meta name="description" content="SPMD Minor and Sports Fitness Coaching Concentration Fall 2027 ADEK roadmap, Khalifa University CMHS.">
+  <style>
+
+:root {
+  --navy: #003D7A;
+  --navy-dark: #002551;
+  --gold: #C8A04A;
+  --gold-light: #E8D08A;
+  --amber: #D97706;
+  --amber-bg: #FFF7ED;
+  --green: #1B8A4E;
+  --ink: #1F2937;
+  --grey-50: #F9FAFB;
+  --grey-100: #F3F4F6;
+  --grey-200: #E5E7EB;
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0; padding: 0;
+  font-family: Arial, sans-serif;
+  color: var(--ink);
+  background: #fff;
+  line-height: 1.5;
+}
+a { color: var(--navy); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Header */
+.header-band {
+  background: var(--navy);
+  border-bottom: 3px solid var(--gold);
+}
+.header-eyebrow {
+  padding: 8px 32px;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  border-bottom: 2px solid var(--gold);
+}
+.header-titles { padding: 16px 32px 20px; }
+.header-title { font-size: 24px; font-weight: 700; margin: 0; color: #fff; }
+.header-subtitle { font-size: 14px; color: var(--gold-light); margin: 4px 0 0; }
+
+/* Nav */
+.site-nav {
+  background: var(--navy-dark);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  position: sticky; top: 0; z-index: 40;
+}
+.site-nav ul {
+  list-style: none; margin: 0; padding: 0 24px;
+  display: flex; gap: 2px; overflow-x: auto;
+}
+.site-nav li { flex: 0 0 auto; }
+.site-nav a {
+  display: inline-block; padding: 11px 14px;
+  color: #fff; font-size: 12px; font-weight: 700;
+  letter-spacing: 0.05em; text-transform: uppercase;
+  border-bottom: 3px solid transparent;
+}
+.site-nav a:hover { color: var(--gold-light); text-decoration: none; }
+.site-nav a.active { border-bottom-color: var(--gold); color: var(--gold-light); }
+
+/* Main */
+main { max-width: 1200px; margin: 0 auto; padding: 32px 28px 80px; }
+section { margin-bottom: 52px; scroll-margin-top: 130px; }
+
+h2.sec { color: var(--navy); border-left: 3px solid var(--gold);
+  padding: 4px 0 4px 14px; font-size: 22px; font-weight: 700; margin: 0 0 18px; }
+h3.sub { color: var(--navy); font-size: 16px; font-weight: 700; margin: 24px 0 10px; }
+
+/* Cards */
+.card { background: #fff; border: 1px solid var(--grey-200);
+  border-radius: 8px; padding: 22px; margin-bottom: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+
+/* Banners */
+.banner { border-radius: 6px; padding: 12px 16px; margin: 10px 0;
+  font-size: 13px; border-left: 4px solid; }
+.banner-navy { background: #EFF6FF; border-color: var(--navy); color: var(--navy-dark); }
+.banner-amber { background: var(--amber-bg); border-color: var(--amber); color: #92400E; }
+.banner-green { background: #ECFDF5; border-color: var(--green); color: #065F46; }
+
+/* Tables */
+.tbl-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+thead th { background: var(--navy); color: #fff; font-weight: 700;
+  text-align: left; padding: 10px 12px; border: 1px solid var(--navy);
+  font-size: 12px; letter-spacing: 0.03em; }
+tbody td { padding: 10px 12px; border: 1px solid var(--grey-200); vertical-align: top; }
+tbody tr:nth-child(even) td { background: var(--grey-50); }
+tbody tr.proposed td { background: var(--amber-bg); }
+tbody tr.proposed:nth-child(even) td { background: #FFE8C8; }
+.col-code { font-weight: 700; color: var(--navy); white-space: nowrap; }
+.col-center { text-align: center; }
+
+/* Pill / badge */
+.pill { display: inline-block; padding: 2px 9px; border-radius: 999px;
+  font-size: 11px; font-weight: 700; white-space: nowrap; }
+.pill-amber { background: #FFEDD5; color: #9A3412; }
+.pill-navy { background: #DBEAFE; color: #1E3A8A; }
+.pill-green { background: #DCFCE7; color: #065F46; }
+
+/* Heatmap */
+.hm td { text-align: center; min-width: 48px; font-weight: 700; }
+.hm .dot { background: var(--navy); color: #fff; }
+.hm .empty { background: var(--grey-100); color: #9CA3AF; }
+
+/* Roadmap grid */
+.roadmap-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0;
+  border: 1px solid var(--grey-200); border-radius: 8px; overflow: hidden; }
+.rg-header { background: var(--navy); color: #fff; font-weight: 700;
+  font-size: 12px; padding: 10px 12px; text-align: center;
+  letter-spacing: 0.04em; text-transform: uppercase; }
+.rg-cell { padding: 10px 12px; border-right: 1px solid var(--grey-200);
+  border-bottom: 1px solid var(--grey-200); font-size: 12px; }
+.rg-cell:nth-child(5n) { border-right: none; }
+.rg-q { font-weight: 700; color: var(--navy); font-size: 13px; }
+.rg-minor { border-left: 3px solid var(--navy); padding-left: 9px; }
+.rg-conc { border-left: 3px solid var(--gold); padding-left: 9px; }
+.rg-gate { font-style: italic; color: #374151; font-size: 11px; }
+.rg-launch { background: var(--amber-bg); }
+.rg-launch .rg-q { color: var(--amber); }
+
+/* Course cards */
+.course-card { border: 1px solid var(--grey-200); border-radius: 8px;
+  margin-bottom: 20px; overflow: hidden; }
+.course-card-head { background: var(--navy); color: #fff; padding: 12px 18px; }
+.course-card-head.proposed { background: var(--amber); }
+.course-card-title { font-size: 16px; font-weight: 700; margin: 0; }
+.course-card-meta { font-size: 12px; opacity: 0.85; margin: 4px 0 0; }
+.course-card-body { padding: 16px 18px; }
+.course-meta-grid { display: grid; grid-template-columns: 140px 1fr; gap: 4px 12px;
+  font-size: 13px; margin-bottom: 14px; }
+.course-meta-label { font-weight: 700; color: var(--navy); }
+.clo-list { padding-left: 18px; margin: 0; font-size: 13px; }
+.clo-list li { margin-bottom: 4px; }
+
+/* Footer */
+.site-footer { background: var(--navy); color: #fff; text-align: center;
+  padding: 16px 24px; font-size: 12px; border-top: 3px solid var(--gold); }
+.site-footer .dot { color: var(--gold-light); margin: 0 6px; }
+
+/* Print */
+@media print {
+  .site-nav { display: none !important; }
+  .header-band { position: static; }
+  section { page-break-after: always; }
+  table { font-size: 11px; }
+  thead th { background: var(--navy) !important; -webkit-print-color-adjust: exact;
+    print-color-adjust: exact; color: #fff !important; }
+  .hm .dot { background: var(--navy) !important; -webkit-print-color-adjust: exact;
+    print-color-adjust: exact; }
+  body { font-size: 12px; }
+  .card { box-shadow: none; }
+}
+@media (max-width: 800px) {
+  .roadmap-grid { grid-template-columns: 1fr 1fr; }
+  main { padding: 20px 14px 60px; }
+  .header-titles { padding: 12px 18px 16px; }
+  .header-title { font-size: 20px; }
+}
+
+  </style>
+</head>
+<body>
+
+<header class="header-band">
+  <div class="header-eyebrow">Khalifa University &middot; College of Medicine and Health Sciences &middot; ADEK Submission</div>
+  <div class="header-titles">
+    <h1 class="header-title">SPMD Minor &rarr; Fall 2027 ADEK Roadmap</h1>
+    <div class="header-subtitle">BSc Clinical Nutrition &amp; Dietetics &mdash; QF Emirates Level 6 &mdash; Prepared by Dr. Carlo Raj</div>
+  </div>
+</header>
+
+<nav class="site-nav" aria-label="Section navigation"><ul>
+    <li><a href="#cover" data-anchor="cover">Cover</a></li>
+    <li><a href="#exec-summary" data-anchor="exec-summary">Executive Summary</a></li>
+    <li><a href="#tracks" data-anchor="tracks">Track Structure</a></li>
+    <li><a href="#courses" data-anchor="courses">Course Catalogue</a></li>
+    <li><a href="#roadmap" data-anchor="roadmap">Roadmap Matrix</a></li>
+    <li><a href="#regulators" data-anchor="regulators">Regulators</a></li>
+    <li><a href="#plo-clo" data-anchor="plo-clo">PLO×CLO</a></li>
+    <li><a href="#data-issues" data-anchor="data-issues">Data Issues</a></li>
+    <li><a href="#appendix" data-anchor="appendix">Appendix A</a></li>
+</ul></nav>
+<main>
+
+<section id="cover">
+  <h2 class="sec">Programme Cover Sheet</h2>
+  <div class="card">
+    <div class="tbl-wrap">
+      <table style="width:auto;min-width:400px;">
+        <tbody><tr><td style="font-weight:700;color:var(--navy);padding:8px 12px;border:1px solid var(--grey-200);background:var(--grey-50);white-space:nowrap;">Programme</td><td style="padding:8px 12px;border:1px solid var(--grey-200);">Bachelor of Science in Clinical Nutrition and Dietetics</td></tr>
+<tr><td style="font-weight:700;color:var(--navy);padding:8px 12px;border:1px solid var(--grey-200);background:var(--grey-50);white-space:nowrap;">Institution</td><td style="padding:8px 12px;border:1px solid var(--grey-200);">Khalifa University</td></tr>
+<tr><td style="font-weight:700;color:var(--navy);padding:8px 12px;border:1px solid var(--grey-200);background:var(--grey-50);white-space:nowrap;">College</td><td style="padding:8px 12px;border:1px solid var(--grey-200);">College of Medicine and Health Sciences (CMHS)</td></tr>
+<tr><td style="font-weight:700;color:var(--navy);padding:8px 12px;border:1px solid var(--grey-200);background:var(--grey-50);white-space:nowrap;">Target Launch</td><td style="padding:8px 12px;border:1px solid var(--grey-200);">Fall 2027</td></tr>
+<tr><td style="font-weight:700;color:var(--navy);padding:8px 12px;border:1px solid var(--grey-200);background:var(--grey-50);white-space:nowrap;">QF Emirates Level</td><td style="padding:8px 12px;border:1px solid var(--grey-200);">6</td></tr>
+<tr><td style="font-weight:700;color:var(--navy);padding:8px 12px;border:1px solid var(--grey-200);background:var(--grey-50);white-space:nowrap;">Baseline Credits</td><td style="padding:8px 12px;border:1px solid var(--grey-200);">124</td></tr>
+<tr><td style="font-weight:700;color:var(--navy);padding:8px 12px;border:1px solid var(--grey-200);background:var(--grey-50);white-space:nowrap;">Credits with Concentration</td><td style="padding:8px 12px;border:1px solid var(--grey-200);">136</td></tr>
+<tr><td style="font-weight:700;color:var(--navy);padding:8px 12px;border:1px solid var(--grey-200);background:var(--grey-50);white-space:nowrap;">Date</td><td style="padding:8px 12px;border:1px solid var(--grey-200);">2026-05-18</td></tr>
+<tr><td style="font-weight:700;color:var(--navy);padding:8px 12px;border:1px solid var(--grey-200);background:var(--grey-50);white-space:nowrap;">Prepared by</td><td style="padding:8px 12px;border:1px solid var(--grey-200);">Dr. Carlo Raj</td></tr>
+<tr><td style="font-weight:700;color:var(--navy);padding:8px 12px;border:1px solid var(--grey-200);background:var(--grey-50);white-space:nowrap;">Audience</td><td style="padding:8px 12px;border:1px solid var(--grey-200);">ADEK Reviewers</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+  <div class="banner banner-navy">
+    <strong>Document purpose:</strong> ADEK Programme Authorization submission supporting the Sports Medicine Minor (SPMD 301&ndash;304) and Sports &amp; Fitness Coaching Concentration (SPMD 305&ndash;308) within the BSCND at Khalifa University CMHS.
+  </div>
+  <div class="banner banner-amber">
+    <strong>Note:</strong> SPMD 305&ndash;308 courses are PROPOSED &mdash; syllabi not yet authored. Data is inferred from the ICREPs Level 3 PT gap analysis and is pending faculty validation before UGCC submission.
+  </div>
+</section>
+
+
+<section id="exec-summary">
+  <h2 class="sec">Executive Summary</h2>
+  <div class="card">
+    <h3 class="sub" style="margin-top:0;">Two-Track Approach</h3>
+    <p style="font-size:14px;margin:0 0 12px;">
+      This roadmap presents a dual-track strategy for delivering sports medicine content within the
+      BSCND. <strong>Track 1</strong> (SPMD 301&ndash;304: Sports Medicine Minor, 12 credits) consolidates
+      four existing syllabi awaiting UGCC review. <strong>Track 2</strong> (SPMD 305&ndash;308: Sports &amp;
+      Fitness Coaching Concentration, 12 credits) introduces four new courses proposed in May 2026 in
+      response to CMHS Dean Dr. Habiba Alsafar&rsquo;s inquiry, closing all ICREPs Level 3 PT
+      competency gaps and enabling REPs UAE Personal Trainer registration for graduates.
+    </p>
+    <h3 class="sub">Fall 2027 Launch Window</h3>
+    <p style="font-size:14px;margin:0 0 12px;">
+      Five-quarter implementation plan (Q3 2026 &ndash; Q3 2027). First classes offered September 2027.
+      Key governance gates: UGCC bundled submission (Q3 2026), ADEK Program Authorization for the minor
+      (Q4 2026), MoHESR filing (Q1 2027), KU Senate/Board approval (Q2 2027), Go-Live (Q3 2027).
+    </p>
+    <h3 class="sub">Regulator Alignment</h3>
+    <p style="font-size:14px;margin:0;">
+      Aligned to six UAE regulatory bodies: REPs UAE (primary professional registration, mandatory UAE
+      gym employment), ADSC and DSC (emirate-level enforcement), GAS (federal strategic framework),
+      DoH Abu Dhabi (parallel Dietitian licence pathway), and MoHRE (commercial employment compliance).
+      REPs UAE / ADSC alignment letters targeted for Q3 2027 Go-Live gate.
+    </p>
+  </div>
+</section>
+
+
+<section id="tracks">
+  <h2 class="sec">Two-Track Programme Structure</h2>
+  
+  <div class="card" style="border-left:4px solid var(--gold);">
+    <h3 class="sub" style="margin-top:0;">Track 2 — Sports &amp; Fitness Coaching Concentration (SPMD 305&ndash;308)</h3>
+    <div class="course-meta-grid">
+      <span class="course-meta-label">Courses</span><span>SPMD305, SPMD306, SPMD307, SPMD308</span>
+      <span class="course-meta-label">Credits</span><span>12</span>
+      <span class="course-meta-label">Status</span><span><span class="pill pill-amber">proposed (Habiba enquiry)</span></span>
+      <span class="course-meta-label">REPs eligibility</span><span><span class="pill pill-green">ICREPs Level 3 PT eligible</span></span>
+    </div>
+    <p style="font-size:13px;color:#4B5563;margin:0;">Four new courses proposed May 2026 in response to Dr. Habiba Alsafar (Dean CMHS) inquiry. Syllabi NOT yet authored. Designed to close all REPs UAE / ICREPs Level 3 PT gaps.</p>
+  </div>
+
+  <div class="card" style="border-left:4px solid var(--navy);">
+    <h3 class="sub" style="margin-top:0;">Track 1 — Sports Medicine Minor (SPMD 301&ndash;304)</h3>
+    <div class="course-meta-grid">
+      <span class="course-meta-label">Courses</span><span>SPMD301, SPMD301a, SPMD302, SPMD302a, SPMD303, SPMD304</span>
+      <span class="course-meta-label">Credits</span><span>18</span>
+      <span class="course-meta-label">Status</span><span><span class="pill pill-amber">pending UGCC review</span></span>
+      <span class="course-meta-label">REPs eligibility</span><span><span class="pill pill-navy">Didactic — no fitness-coach credential</span></span>
+    </div>
+    <p style="font-size:13px;color:#4B5563;margin:0;">Six SPMD syllabi (four existing + two new inferred courses added 2026-05-18) consolidated and awaiting UGCC review. SPMD 301a + 302a added per Kinda Khalaf&#x27;s request for an 18-credit strengthened minor. Athlete-centred and didactic; does not confer fitness-coach eligibility.</p>
+  </div>
+
+  <h3 class="sub">Side-by-Side Comparison</h3>
+  <div class="card" style="padding:0;overflow:hidden;">
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Attribute</th><th>Minor (SPMD 301&ndash;304)</th><th>Concentration (SPMD 305&ndash;308)</th></tr></thead>
+        <tbody><tr><td style='font-weight:700;color:var(--navy);'>Course codes</td><td>SPMD 301, 302, 303, 304</td><td>SPMD 305, 306, 307, 308</td></tr><tr><td style='font-weight:700;color:var(--navy);'>Credits</td><td>12</td><td>12</td></tr><tr><td style='font-weight:700;color:var(--navy);'>Level</td><td>300-level</td><td>300–400 level</td></tr><tr><td style='font-weight:700;color:var(--navy);'>Target student</td><td>Nutrition students — sports science depth; athlete-centred</td><td>Nutrition students targeting REPs UAE PT / GFI registration</td></tr><tr><td style='font-weight:700;color:var(--navy);'>ICREPs Level 3 PT pathway</td><td>No</td><td>Yes</td></tr><tr><td style='font-weight:700;color:var(--navy);'>Governance status</td><td>Pending UGCC review</td><td>Proposed — syllabi not yet authored</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+
+<section id="courses">
+  <h2 class="sec">Course Catalogue &mdash; SPMD 301&ndash;308</h2>
+  <div class="banner banner-amber" style="margin-bottom:18px;">
+    <strong>PROPOSED courses (SPMD 305&ndash;308):</strong> Header shown in amber. CLOs and PLO mappings are inferred and require faculty validation before UGCC submission.
+  </div>
+  
+  <div class="course-card">
+    <div class="course-card-head">
+      <p class="course-card-title">SPMD301: Foundations of Sports Medicine</p>
+      <p class="course-card-meta">Minor &middot; Y3 Fall &middot; 3 credits &middot; Level 300 </p>
+    </div>
+    <div class="course-card-body">
+      <div class="course-meta-grid">
+        <div class="course-meta-label">Prerequisites</div><div style="font-size:12px;">BIOL 207: Human Physiology</div>
+        <div class="course-meta-label">Status</div><div>pending UGCC review</div>
+        
+        
+        <div class="course-meta-label">PLOs</div><div><span class="pill pill-navy">PLO1</span> <span class="pill pill-navy">PLO2</span> <span class="pill pill-navy">PLO4</span></div>
+        <div class="course-meta-label">KU GELOs</div><div><span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO1</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO3</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO6</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO9</span></div>
+      </div>
+      <p style="font-size:13px;margin:0 0 12px;">Introduction to sports medicine concepts including anatomy of movement, biomechanics, common sports injuries, exercise physiology principles, and the interdisciplinary approach to athlete care. Covers tissue healing, injury mechanisms, and the roles of healthcare professionals within sports medicine teams. Prepares nutrition students to collaborate effectively with sports medicine professionals.</p>
+      <strong style="font-size:13px;color:var(--navy);">Course Learning Outcomes (CLOs)</strong>
+      <ol class="clo-list"><li>CLO1: Analyze human movement patterns in athletic populations using anatomical and biomechanical principles to determine injury risk factors.</li>
+<li>CLO2: Analyze physiological responses and adaptations associated with acute exercise and chronic training across diverse sport modalities.</li>
+<li>CLO3: Analyze common sports injuries with respect to mechanisms of injury, clinical presentation, and evidence-based treatment approaches.</li>
+<li>CLO4: Evaluate the role of interdisciplinary sports medicine teams, including physicians, athletic trainers, physical therapists, and nutritionists, in comprehensive athlete care.</li>
+<li>CLO5: Demonstrate professional communication skills related to sports medicine concepts in interactions with athletes, coaches, and healthcare providers.</li></ol>
+      
+    </div>
+  </div>
+
+  <div class="course-card">
+    <div class="course-card-head proposed">
+      <p class="course-card-title">SPMD301a: Sports Anatomy &amp; Injury Mechanics</p>
+      <p class="course-card-meta">Minor &middot; Y3 Fall &middot; 3 credits &middot; Level  <span style="background:#D97706;color:#fff;padding:2px 10px;border-radius:4px;font-size:12px;font-weight:700;letter-spacing:0.04em;">PROPOSED — pending faculty validation</span></p>
+    </div>
+    <div class="course-card-body">
+      <div class="course-meta-grid">
+        <div class="course-meta-label">Prerequisites</div><div style="font-size:12px;">None</div>
+        <div class="course-meta-label">Status</div><div></div>
+        
+        
+        <div class="course-meta-label">PLOs</div><div><span class="pill pill-navy">PLO1: Apply biomedical sciences foundations to nutrition practice</span> <span class="pill pill-navy">PLO2: Demonstrate professional skills relevant to clinical practice</span> <span class="pill pill-navy">PLO3: Critically evaluate scientific evidence</span></div>
+        <div class="course-meta-label">KU GELOs</div><div><span class="pill" style="background:var(--grey-100);color:var(--ink);">GELO1 Knowledge &amp; Understanding</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">GELO2 Cognitive Skills</span></div>
+      </div>
+      <p style="font-size:13px;margin:0 0 12px;">Foundations of musculoskeletal anatomy, biomechanical analysis of sports-related injury mechanisms, and integrated rehabilitation principles.</p>
+      <strong style="font-size:13px;color:var(--navy);">Course Learning Outcomes (CLOs)</strong>
+      <ol class="clo-list"><li>Identify musculoskeletal structures relevant to common sports injuries</li>
+<li>Analyze mechanical loading patterns associated with overuse and acute injury</li>
+<li>Apply tissue-healing timelines to nutrition counseling for injured athletes</li>
+<li>Critique current evidence on nutritional support of injury recovery</li></ol>
+      <p style="font-size:11px;color:var(--amber);margin:8px 0 0;"><strong>Inference note:</strong> Course added 2026-05-18 per Kinda Khalaf&#x27;s request for an 18-credit strengthened minor. Faculty must validate.</p>
+    </div>
+  </div>
+
+  <div class="course-card">
+    <div class="course-card-head">
+      <p class="course-card-title">SPMD302: Exercise Physiology</p>
+      <p class="course-card-meta">Minor &middot; Y3 Spring &middot; 3 credits &middot; Level 300 </p>
+    </div>
+    <div class="course-card-body">
+      <div class="course-meta-grid">
+        <div class="course-meta-label">Prerequisites</div><div style="font-size:12px;">BIOL 207: Human Physiology</div>
+        <div class="course-meta-label">Status</div><div>pending UGCC review</div>
+        
+        
+        <div class="course-meta-label">PLOs</div><div><span class="pill pill-navy">PLO1</span> <span class="pill pill-navy">PLO2</span> <span class="pill pill-navy">PLO3</span></div>
+        <div class="course-meta-label">KU GELOs</div><div><span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO2</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO3</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO8</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO9</span></div>
+      </div>
+      <p style="font-size:13px;margin:0 0 12px;">Acute and chronic physiological responses to exercise including cardiovascular, respiratory, metabolic, neuromuscular, and endocrine adaptations. Covers bioenergetics, training principles, and environmental physiology as they relate to athletic performance and health. Provides foundation for understanding the interaction between exercise training and nutrition.</p>
+      <strong style="font-size:13px;color:var(--navy);">Course Learning Outcomes (CLOs)</strong>
+      <ol class="clo-list"><li>CLO1: Apply principles of bioenergetics to explanations of ATP production, energy system contributions, and metabolic responses across varying exercise intensities and durations.</li>
+<li>CLO2: Analyze cardiovascular, respiratory, neuromuscular, and endocrine adaptations associated with aerobic and anaerobic training.</li>
+<li>CLO3: Conduct exercise physiology assessments, including VO2max testing, lactate threshold determination, and body composition analysis.</li>
+<li>CLO4: Evaluate the effects of environmental conditions, including heat, cold, and altitude, on exercise performance and physiological adaptation strategies.</li>
+<li>CLO5: Design evidence-based training programs to optimize physiological adaptations for specific performance goals.</li></ol>
+      
+    </div>
+  </div>
+
+  <div class="course-card">
+    <div class="course-card-head proposed">
+      <p class="course-card-title">SPMD302a: Exercise Physiology Lab</p>
+      <p class="course-card-meta">Minor &middot; Y3 Spring &middot; 3 credits &middot; Level  <span style="background:#D97706;color:#fff;padding:2px 10px;border-radius:4px;font-size:12px;font-weight:700;letter-spacing:0.04em;">PROPOSED — pending faculty validation</span></p>
+    </div>
+    <div class="course-card-body">
+      <div class="course-meta-grid">
+        <div class="course-meta-label">Prerequisites</div><div style="font-size:12px;">None</div>
+        <div class="course-meta-label">Status</div><div></div>
+        
+        
+        <div class="course-meta-label">PLOs</div><div><span class="pill pill-navy">PLO1: Apply biomedical sciences foundations to nutrition practice</span> <span class="pill pill-navy">PLO2: Demonstrate professional skills relevant to clinical practice</span> <span class="pill pill-navy">PLO5: Function effectively within multidisciplinary teams</span></div>
+        <div class="course-meta-label">KU GELOs</div><div><span class="pill" style="background:var(--grey-100);color:var(--ink);">GELO1 Knowledge &amp; Understanding</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">GELO2 Cognitive Skills</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">GELO5 Teamwork &amp; Leadership</span></div>
+      </div>
+      <p style="font-size:13px;margin:0 0 12px;">Hands-on laboratory in metabolic, cardiovascular, and neuromuscular responses to exercise; data interpretation for individualized nutrition plans.</p>
+      <strong style="font-size:13px;color:var(--navy);">Course Learning Outcomes (CLOs)</strong>
+      <ol class="clo-list"><li>Conduct standardized exercise testing protocols</li>
+<li>Interpret VO2max, RER, and lactate-threshold data in context of nutrition planning</li>
+<li>Apply heart-rate and load metrics to fueling-strategy design</li>
+<li>Communicate lab findings to athletes and multidisciplinary teams</li></ol>
+      <p style="font-size:11px;color:var(--amber);margin:8px 0 0;"><strong>Inference note:</strong> Course added 2026-05-18 per Kinda Khalaf&#x27;s request for an 18-credit strengthened minor. Faculty must validate.</p>
+    </div>
+  </div>
+
+  <div class="course-card">
+    <div class="course-card-head">
+      <p class="course-card-title">SPMD303: Injury Prevention &amp; Rehabilitation</p>
+      <p class="course-card-meta">Minor &middot; Y3 Spring &middot; 3 credits &middot; Level 300 </p>
+    </div>
+    <div class="course-card-body">
+      <div class="course-meta-grid">
+        <div class="course-meta-label">Prerequisites</div><div style="font-size:12px;">SPMD301: Foundations of Sports Medicine [Source docx has typo BMED301; corrected to SPMD301.]</div>
+        <div class="course-meta-label">Status</div><div>pending UGCC review</div>
+        
+        
+        <div class="course-meta-label">PLOs</div><div><span class="pill pill-navy">PLO1</span> <span class="pill pill-navy">PLO2</span> <span class="pill pill-navy">PLO4</span></div>
+        <div class="course-meta-label">KU GELOs</div><div><span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO2</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO3</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO9</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO12</span></div>
+      </div>
+      <p style="font-size:13px;margin:0 0 12px;">Principles of sports injury prevention and evidence-based rehabilitation approaches including screening methods, injury risk assessment, prevention program design, and rehabilitation progressions for common athletic injuries. Emphasises interdisciplinary collaboration and the role of nutrition in tissue healing and return-to-play decision making.</p>
+      <strong style="font-size:13px;color:var(--navy);">Course Learning Outcomes (CLOs)</strong>
+      <ol class="clo-list"><li>CLO1: Apply evidence-based screening tools and movement assessments for the identification of injury risk factors and biomechanical deficiencies in athletes.</li>
+<li>CLO2: Design injury prevention programs that integrate strength training, flexibility, neuromuscular control, and sport-specific conditioning.</li>
+<li>CLO3: Analyze healing processes and phases of tissue repair relevant to rehabilitation progression for common sports injuries.</li>
+<li>CLO4: Evaluate therapeutic modalities, manual therapy techniques, and exercise interventions used in sports injury rehabilitation.</li>
+<li>CLO5: Collaborate with sports medicine professionals within return-to-play protocols to support safe athlete progression.</li></ol>
+      
+    </div>
+  </div>
+
+  <div class="course-card">
+    <div class="course-card-head">
+      <p class="course-card-title">SPMD304: Performance Assessment &amp; Technology</p>
+      <p class="course-card-meta">Minor &middot; Y4 Fall &middot; 3 credits &middot; Level 300 </p>
+    </div>
+    <div class="course-card-body">
+      <div class="course-meta-grid">
+        <div class="course-meta-label">Prerequisites</div><div style="font-size:12px;">SPMD302: Exercise Physiology [Source docx has typo BMED302; corrected to SPMD302. _data.json in BSCND_KU_Mapping showed credits: 0 — confirmed data entry error; actual 3 credits per syllabus header.]</div>
+        <div class="course-meta-label">Status</div><div>pending UGCC review</div>
+        
+        
+        <div class="course-meta-label">PLOs</div><div><span class="pill pill-navy">PLO1</span> <span class="pill pill-navy">PLO2</span> <span class="pill pill-navy">PLO3</span></div>
+        <div class="course-meta-label">KU GELOs</div><div><span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO2</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO3</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO7</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO10</span></div>
+      </div>
+      <p style="font-size:13px;margin:0 0 12px;">Assessment methods and emerging technologies for evaluating athletic performance. Provides hands-on laboratory experience with biomechanical analysis, fitness testing, wearable technology, and data analytics for athlete monitoring. Emphasis on performance assessment, data interpretation, and integration of technology into sports science and nutrition practice.</p>
+      <strong style="font-size:13px;color:var(--navy);">Course Learning Outcomes (CLOs)</strong>
+      <ol class="clo-list"><li>CLO1: Apply biomechanical analysis techniques, including force platforms, motion capture, and electromyography, to assessments of movement quality and sport-specific performance.</li>
+<li>CLO2: Conduct comprehensive fitness assessments using standardized protocols for strength, power, speed, agility, and endurance.</li>
+<li>CLO3: Analyze performance data through statistical methods for training recommendations and athlete progress tracking.</li>
+<li>CLO4: Evaluate emerging athlete-monitoring technologies, including wearable sensors, GPS tracking, and heart rate variability monitors, for performance optimization.</li>
+<li>CLO5: Design technology-enhanced performance monitoring systems that integrate physiological, biomechanical, and training load data.</li></ol>
+      
+    </div>
+  </div>
+
+  <div class="course-card">
+    <div class="course-card-head proposed">
+      <p class="course-card-title">SPMD305: Personal Training &amp; Exercise Programme Design</p>
+      <p class="course-card-meta">Concentration &middot; Y3 Fall &middot; 3 credits &middot; Level 300 <span style="background:#D97706;color:#fff;padding:2px 10px;border-radius:4px;font-size:12px;font-weight:700;letter-spacing:0.04em;">PROPOSED — pending faculty validation</span></p>
+    </div>
+    <div class="course-card-body">
+      <div class="course-meta-grid">
+        <div class="course-meta-label">Prerequisites</div><div style="font-size:12px;">SPMD301: Foundations of Sports Medicine</div>
+        <div class="course-meta-label">Status</div><div>proposed — syllabus not yet authored</div>
+        <div class="course-meta-label">ICREPs alignment</div><div>ICREPs Level 3 PT — Unit &#x27;Programme Design&#x27; + &#x27;Apply Principles of Training&#x27;</div>
+        
+        <div class="course-meta-label">PLOs</div><div><span class="pill pill-navy">PLO1</span> <span class="pill pill-navy">PLO2</span> <span class="pill pill-navy">PLO3</span></div>
+        <div class="course-meta-label">KU GELOs</div><div><span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO2</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO3</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO9</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO10</span></div>
+      </div>
+      <p style="font-size:13px;margin:0 0 12px;">Client-centred exercise prescription for general-population and athletic clients, translating exercise physiology principles into applied personal-training practice. Covers needs analysis, FITT-VP model, periodization models, general-population programme design, special populations (elderly, pregnant, chronic disease), programme monitoring and adjustment. Laboratory component delivers hands-on weight and equipment training instruction.</p>
+      <strong style="font-size:13px;color:var(--navy);">Course Learning Outcomes (CLOs)</strong>
+      <ol class="clo-list"><li>CLO1: Apply the FITT-VP model and periodization principles to design client-centred exercise programmes for general-population and athletic clients at QFEmirates Level 6.</li>
+<li>CLO2: Conduct structured needs analysis and fitness assessments to inform individualized programme prescription across age groups and health status.</li>
+<li>CLO3: Demonstrate safe and effective technique instruction for resistance, cardiovascular, and functional training equipment in a supervised gym environment.</li>
+<li>CLO4: Evaluate and adjust exercise programmes based on client progress data, training load metrics, and evidence-based adaptation principles.</li>
+<li>CLO5: Integrate sports nutrition knowledge with exercise prescription to optimise client outcomes across fitness, weight management, and performance goals.</li></ol>
+      <p style="font-size:11px;color:var(--amber);margin:8px 0 0;"><strong>Inference note:</strong> Title, structure, and ICREPs alignment sourced from _analysis.json proposed_new_courses and Habibia_SPMD.pdf table. CLOs inferred from ICREPs Level 3 PT competency units + gap analysis in _analysis.json. Syllabus not yet authored.</p>
+    </div>
+  </div>
+
+  <div class="course-card">
+    <div class="course-card-head proposed">
+      <p class="course-card-title">SPMD306: Group Fitness, Stretching &amp; Conditioning Instruction</p>
+      <p class="course-card-meta">Concentration &middot; Y3 Spring &middot; 3 credits &middot; Level 300 <span style="background:#D97706;color:#fff;padding:2px 10px;border-radius:4px;font-size:12px;font-weight:700;letter-spacing:0.04em;">PROPOSED — pending faculty validation</span></p>
+    </div>
+    <div class="course-card-body">
+      <div class="course-meta-grid">
+        <div class="course-meta-label">Prerequisites</div><div style="font-size:12px;">SPMD302: Exercise Physiology</div>
+        <div class="course-meta-label">Status</div><div>proposed — syllabus not yet authored</div>
+        <div class="course-meta-label">ICREPs alignment</div><div>REPs UAE Group Fitness Instructor + ICREPs Level 2/3 Group Fitness Instructor</div>
+        
+        <div class="course-meta-label">PLOs</div><div><span class="pill pill-navy">PLO2</span> <span class="pill pill-navy">PLO4</span> <span class="pill pill-navy">PLO5</span></div>
+        <div class="course-meta-label">KU GELOs</div><div><span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO6</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO9</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO12</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO14</span></div>
+      </div>
+      <p style="font-size:13px;margin:0 0 12px;">Practical instructor skills for designing and leading group fitness classes, structured flexibility and stretching sessions, and conditioning programmes for diverse populations. Covers group exercise class design, cueing methodology, music-driven exercise sequencing, safety and liability in group settings, and REPs UAE Group Fitness Instructor competencies. Heavy laboratory weighting (300 min/wk) provides direct teaching practicum.</p>
+      <strong style="font-size:13px;color:var(--navy);">Course Learning Outcomes (CLOs)</strong>
+      <ol class="clo-list"><li>CLO1: Plan and deliver group fitness classes applying evidence-based programming, cueing, and safety principles for mixed-ability participants at QFEmirates Level 6.</li>
+<li>CLO2: Design and instruct structured flexibility and stretching protocols appropriate to diverse client populations, using anatomically sound progressions.</li>
+<li>CLO3: Demonstrate safe exercise instruction methodology including movement demonstration, verbal cueing, visual monitoring, and real-time correction.</li>
+<li>CLO4: Evaluate participant responses during group sessions and modify intensity, complexity, and progression to ensure inclusive, evidence-based instruction.</li>
+<li>CLO5: Apply UAE regulatory requirements for group fitness instructors, including REPs UAE Group Fitness Instructor registration competencies and professional conduct standards.</li></ol>
+      <p style="font-size:11px;color:var(--amber);margin:8px 0 0;"><strong>Inference note:</strong> Title, structure (1L+2Lab), semester (Y3 Spring), and prerequisite sourced from _analysis.json proposed_new_courses and Habibia_SPMD.pdf. CLOs inferred from REPs UAE GFI competency framework + Dr. Habiba&#x27;s explicit &#x27;teaching stretching and conditioning techniques&#x27; clause. Syllabus not yet authored.</p>
+    </div>
+  </div>
+
+  <div class="course-card">
+    <div class="course-card-head proposed">
+      <p class="course-card-title">SPMD307: Fitness Coaching, Behaviour Change &amp; Business of Fitness</p>
+      <p class="course-card-meta">Concentration &middot; Y4 Fall &middot; 3 credits &middot; Level 400 <span style="background:#D97706;color:#fff;padding:2px 10px;border-radius:4px;font-size:12px;font-weight:700;letter-spacing:0.04em;">PROPOSED — pending faculty validation</span></p>
+    </div>
+    <div class="course-card-body">
+      <div class="course-meta-grid">
+        <div class="course-meta-label">Prerequisites</div><div style="font-size:12px;">SPMD305: Personal Training &amp; Exercise Programme Design</div>
+        <div class="course-meta-label">Status</div><div>proposed — syllabus not yet authored</div>
+        <div class="course-meta-label">ICREPs alignment</div><div>ICREPs Level 3 PT — Unit &#x27;Client Consultation &amp; Behaviour Change&#x27; + &#x27;Professional Practice&#x27;</div>
+        
+        <div class="course-meta-label">PLOs</div><div><span class="pill pill-navy">PLO1</span> <span class="pill pill-navy">PLO4</span> <span class="pill pill-navy">PLO5</span></div>
+        <div class="course-meta-label">KU GELOs</div><div><span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO5</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO6</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO9</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO14</span></div>
+      </div>
+      <p style="font-size:13px;margin:0 0 12px;">Integrates coaching psychology, behaviour change theory, and business practice for fitness professionals operating in the UAE market. Covers Transtheoretical Model, Motivational Interviewing, and Self-Determination Theory applied to fitness client coaching; scope of practice; professional ethics and liability; freelance and employed business models; and UAE-specific regulatory environment including REPs UAE, ADSC, and DSC requirements. Prepares students for the professional practice component of REPs UAE registration.</p>
+      <strong style="font-size:13px;color:var(--navy);">Course Learning Outcomes (CLOs)</strong>
+      <ol class="clo-list"><li>CLO1: Apply behaviour-change theories (Transtheoretical Model, Motivational Interviewing, Self-Determination Theory) to design client-centred coaching strategies for diverse fitness populations at QFEmirates Level 6.</li>
+<li>CLO2: Analyse the UAE fitness industry regulatory framework, including REPs UAE, ADSC, and DSC requirements, and apply scope-of-practice boundaries for fitness professionals.</li>
+<li>CLO3: Evaluate professional ethics, liability, informed consent, and confidentiality obligations governing fitness coaches in Abu Dhabi and UAE free-zone contexts.</li>
+<li>CLO4: Design a sustainable business model for a fitness coaching practice, including pricing structures, client acquisition, insurance, and MoHRE / DED licensing considerations.</li>
+<li>CLO5: Integrate nutrition counselling (within Dietitian scope) and fitness coaching into a holistic client management plan, differentiating professional roles and referral pathways.</li></ol>
+      <p style="font-size:11px;color:var(--amber);margin:8px 0 0;"><strong>Inference note:</strong> Title, structure (3L), level (400), semester (Y4 Fall), and prerequisite sourced from _analysis.json. CLOs inferred from ICREPs Level 3 PT professional practice unit, PPTX psychology/pedagogy/wellness modules, and UAE regulatory chain in memory/reference files. PLO1 included because CLO1 applies evidence-based behaviour-change science (knowledge domain). Syllabus not yet authored.</p>
+    </div>
+  </div>
+
+  <div class="course-card">
+    <div class="course-card-head proposed">
+      <p class="course-card-title">SPMD308: Fitness Coaching Practicum &amp; REPs UAE Certification Capstone</p>
+      <p class="course-card-meta">Concentration &middot; Y4 Spring &middot; 3 credits &middot; Level 400 <span style="background:#D97706;color:#fff;padding:2px 10px;border-radius:4px;font-size:12px;font-weight:700;letter-spacing:0.04em;">PROPOSED — pending faculty validation</span></p>
+    </div>
+    <div class="course-card-body">
+      <div class="course-meta-grid">
+        <div class="course-meta-label">Prerequisites</div><div style="font-size:12px;">SPMD306: Group Fitness, Stretching &amp; Conditioning Instruction; SPMD307: Fitness Coaching, Behaviour Change &amp; Business of Fitness</div>
+        <div class="course-meta-label">Status</div><div>proposed — syllabus not yet authored</div>
+        <div class="course-meta-label">ICREPs alignment</div><div>ICREPs Level 3 PT — Unit &#x27;Practical Coaching Hours&#x27; + &#x27;First Aid&#x27;; REPs UAE Personal Trainer registration documentation</div>
+        <div class="course-meta-label">Embedded certs</div><div>CPR/AED (Heart &amp; Stroke / Red Crescent), First Aid</div>
+        <div class="course-meta-label">PLOs</div><div><span class="pill pill-navy">PLO2</span> <span class="pill pill-navy">PLO3</span> <span class="pill pill-navy">PLO4</span> <span class="pill pill-navy">PLO5</span></div>
+        <div class="course-meta-label">KU GELOs</div><div><span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO6</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO11</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO12</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO14</span> <span class="pill" style="background:var(--grey-100);color:var(--ink);">ILO15</span></div>
+      </div>
+      <p style="font-size:13px;margin:0 0 12px;">Capstone practicum course completing all REPs UAE registration requirements. Students complete 200 supervised personal-training and group-fitness hours at REPs-affiliated health clubs (e.g., Fitness First, Gold&#x27;s Gym, NAS Sports Complex Abu Dhabi). Embedded external CPR/AED/First Aid certification (Heart &amp; Stroke or UAE Red Crescent). REPs UAE Personal Trainer portfolio assembled and submitted. Weekly seminars address professional reflective practice, case documentation, and transition to qualified fitness professional.</p>
+      <strong style="font-size:13px;color:var(--navy);">Course Learning Outcomes (CLOs)</strong>
+      <ol class="clo-list"><li>CLO1: Demonstrate competent delivery of individualised personal-training sessions and group fitness instruction across 200 supervised practice hours in REPs-affiliated fitness facilities at QFEmirates Level 6.</li>
+<li>CLO2: Apply CPR, AED, and First Aid protocols to simulated and real emergency scenarios, achieving external certification from a recognised provider (Heart &amp; Stroke Foundation / UAE Red Crescent).</li>
+<li>CLO3: Assemble a complete REPs UAE Personal Trainer registration portfolio including qualifications evidence, practical hours log, CPR/First Aid certificate, and professional CV.</li>
+<li>CLO4: Critically reflect on supervised practice experiences using structured professional learning frameworks, identifying strengths, gaps, and continuing professional development goals.</li>
+<li>CLO5: Integrate dietetics and fitness coaching competencies to design and communicate holistic health plans, demonstrating the unique dual-credential value of the BSCND + Concentration qualification.</li></ol>
+      <p style="font-size:11px;color:var(--amber);margin:8px 0 0;"><strong>Inference note:</strong> Title, structure (1L + 200 supervised hrs + CPR/AED embedded), level (400), semester (Y4 Spring), and prerequisites sourced from _analysis.json. CLOs inferred from ICREPs Level 3 PT practical coaching hours unit, REPs UAE registration requirements (repsuae.com), and PPTX CPR/internship modules. Partner facilities named in _analysis.json approval_path step 7. Syllabus not yet authored.</p>
+    </div>
+  </div>
+
+</section>
+
+
+<section id="roadmap">
+  <h2 class="sec">Quarter &times; Track &times; Gate Roadmap Matrix</h2>
+  <p style="font-size:13px;color:#4B5563;margin:-8px 0 16px;">Five-quarter implementation plan Q3 2026 &ndash; Q3 2027. Q3 2027 (Go-Live) is highlighted in amber.</p>
+  <div class="roadmap-grid">
+<div class="rg-header">Quarter</div>
+<div class="rg-header">Minor Track Deliverable</div>
+<div class="rg-header">Concentration Track Deliverable</div>
+<div class="rg-header">Governance Gate</div>
+<div class="rg-header">Owner / Decision-Maker</div>
+<div class="rg-cell rg-q">Q3 2026<br><small style="font-weight:400;font-size:11px;">Jul–Sep 2026</small></div>
+<div class="rg-cell rg-minor">Finalise and submit consolidated UGCC packet for SPMD 301-304 (four syllabi + PLO-CLO matrix + degree plan update)</div>
+<div class="rg-cell rg-conc">Author SPMD 305-308 syllabi using KU Course Syllabus Template (Dec 2025); benchmark against ICREPs Level 3 PT competencies; update BSCND curriculum document and PLO-CLO matrix</div>
+<div class="rg-cell rg-gate">UGCC review (bundled submission: SPMD 301-308 in single cycle)</div>
+<div class="rg-cell" style="font-size:11px;"><strong>Dr. Carlo Raj + SPMD program faculty + CMHS College Council</strong><br>Decision: UGCC Chair</div>
+<div class="rg-cell rg-q">Q4 2026<br><small style="font-weight:400;font-size:11px;">Oct–Dec 2026</small></div>
+<div class="rg-cell rg-minor">Respond to UGCC feedback; prepare ADEK Program Authorization draft package for SPMD 301-304</div>
+<div class="rg-cell rg-conc">Submit SPMD 305-308 to UGCC following CMHS College Council endorsement</div>
+<div class="rg-cell rg-gate">ADEK Program Authorization (minor track); UGCC approval (concentration track)</div>
+<div class="rg-cell" style="font-size:11px;"><strong>Program Director (BSCND) + Quality Assurance / Office of the Provost</strong><br>Decision: ADEK Program Authorization Committee</div>
+<div class="rg-cell rg-q">Q1 2027<br><small style="font-weight:400;font-size:11px;">Jan–Mar 2027</small></div>
+<div class="rg-cell rg-minor">File SPMD Minor with MoHESR / Ministry of Education per UAE programme approval process</div>
+<div class="rg-cell rg-conc">Submit Sports &amp; Fitness Coaching Concentration to ADEK for authorization</div>
+<div class="rg-cell rg-gate">MoE / MoHESR approval (minor); ADEK intake of concentration file</div>
+<div class="rg-cell" style="font-size:11px;"><strong>KU Strategic Accreditation Unit (Affairs &amp; Foresight Division)</strong><br>Decision: MoHESR Programme Approval Committee</div>
+<div class="rg-cell rg-q">Q2 2027<br><small style="font-weight:400;font-size:11px;">Apr–Jun 2027</small></div>
+<div class="rg-cell rg-minor">Launch marketing for SPMD Minor; update undergraduate catalog 2027-28; student advising materials</div>
+<div class="rg-cell rg-conc">KU Senate and Board of Trustees sign-off on Sports &amp; Fitness Coaching Concentration</div>
+<div class="rg-cell rg-gate">KU Senate / Board sign-off on concentration; marketing go-live</div>
+<div class="rg-cell" style="font-size:11px;"><strong>Student Affairs / Enrollment Management; University Registrar</strong><br>Decision: KU Board of Trustees</div>
+<div class="rg-cell rg-launch rg-q">Q3 2027<br><small style="font-weight:400;font-size:11px;">Jul–Sep 2027</small></div>
+<div class="rg-cell rg-launch rg-minor">SPMD 301 and SPMD 305 first classes offered — September 2027</div>
+<div class="rg-cell rg-launch rg-conc">SPMD 305 and SPMD 306 first classes offered alongside minor courses — September 2027</div>
+<div class="rg-cell rg-launch rg-gate">Go-live — Fall 2027 semester start + REPs UAE / ADSC alignment letter issued</div>
+<div class="rg-cell rg-launch" style="font-size:11px;"><strong>Dr. Carlo Raj (Program Director) + SPMD Course Coordinators</strong><br>Decision: CMHS Dean + KU Provost</div>
+  </div>
+  <h3 class="sub">Key Actions by Quarter</h3>
+  
+<div class="tbl-wrap" style="margin-top:20px;">
+  <table>
+    <thead><tr><th>Quarter</th><th>Key Action</th></tr></thead>
+    <tbody><tr><td class="col-code">Q3 2026</td><td style="font-size:12px;">Secure CMHS Dean (Dr. Habiba Alsafar) endorsement of Option A (Sports &amp; Fitness Coaching Concentration)</td></tr><tr><td class="col-code">Q3 2026</td><td style="font-size:12px;">Assign SPMD308 practicum placement officer; open dialogue with REPs-affiliated Abu Dhabi clubs</td></tr><tr><td class="col-code">Q3 2026</td><td style="font-size:12px;">Submit BSCND curriculum update with 4-year plan showing SPMD 301-308 placement</td></tr><tr><td class="col-code">Q4 2026</td><td style="font-size:12px;">Update CHEDS / ADEK programme files with SPMD minor data</td></tr><tr><td class="col-code">Q4 2026</td><td style="font-size:12px;">Flag SPMD concentration for next ADEK review cycle</td></tr><tr><td class="col-code">Q4 2026</td><td style="font-size:12px;">Initiate formal REPs UAE liaison correspondence re: ICREPs alignment of SPMD 305-308</td></tr><tr><td class="col-code">Q1 2027</td><td style="font-size:12px;">Confirm BSCND credits 124 → 136 reflected in MoHESR programme specification</td></tr><tr><td class="col-code">Q1 2027</td><td style="font-size:12px;">Ensure SPMD308 practicum site MoUs are in place for ADEK concentration submission</td></tr><tr><td class="col-code">Q1 2027</td><td style="font-size:12px;">Provide evidence of ICREPs / REPs UAE engagement in ADEK concentration file</td></tr><tr><td class="col-code">Q2 2027</td><td style="font-size:12px;">Update KU undergraduate catalog 2027-28 with SPMD 301-304 minor and SPMD 305-308 concentration</td></tr><tr><td class="col-code">Q2 2027</td><td style="font-size:12px;">Train academic advisors on dual-track SPMD offering and REPs UAE pathway</td></tr><tr><td class="col-code">Q2 2027</td><td style="font-size:12px;">Publish REPs UAE registration information for prospective students</td></tr><tr><td class="col-code">Q3 2027</td><td style="font-size:12px;">Obtain REPs UAE / ADSC alignment letter confirming SPMD 305-308 maps to ICREPs Level 3 PT competencies</td></tr><tr><td class="col-code">Q3 2027</td><td style="font-size:12px;">Launch SPMD308 practicum partnerships with Fitness First, Gold&#x27;s Gym, NAS Sports Complex Abu Dhabi</td></tr><tr><td class="col-code">Q3 2027</td><td style="font-size:12px;">Post first cohort enrollment in SPMD 301, SPMD 302, SPMD 305, SPMD 306 — September 2027</td></tr></tbody>
+  </table>
+</div>
+
+</section>
+
+
+<section id="regulators">
+  <h2 class="sec">Regulator Alignment Matrix</h2>
+  <p style="font-size:13px;color:#4B5563;margin:-8px 0 14px;">
+    The concentration courses (SPMD 305&ndash;308) carry direct UAE professional-registration relevance.
+    The Sports Medicine Minor (SPMD 301&ndash;304) provides foundational knowledge but does not confer
+    fitness-coach credentials.
+  </p>
+  <div class="card" style="padding:0;overflow:hidden;">
+    <div class="tbl-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Regulator</th>
+            <th>Full Name / Arabic</th>
+            <th>Tier</th>
+            <th>SPMD305</th><th>SPMD306</th><th>SPMD307</th><th>SPMD308</th>
+          </tr>
+        </thead>
+        <tbody><tr><td class="col-code">ADSC</td><td style="font-size:12px;"><strong>Abu Dhabi Sports Council</strong><br><span style="font-size:11px;color:#4B5563;">مجلس أبوظبي الرياضي</span></td><td><span class="pill pill-navy">Tier 2</span></td><td style="text-align:center;color:#9CA3AF;">—</td><td style="text-align:center;color:#9CA3AF;">—</td><td style="font-size:11px;">UAE regulatory environment (REPs UAE, ADSC, DSC) covered explicitly in CLO2 — scope of practice and regulatory compliance for Abu Dhabi fitness professionals</td><td style="font-size:11px;">Practicum placements in ADSC-overseen Abu Dhabi facilities; alignment letter from ADSC expected at Q3 2027 gate</td></tr><tr><td class="col-code">DSC</td><td style="font-size:12px;"><strong>Dubai Sports Council</strong><br><span style="font-size:11px;color:#4B5563;">مجلس دبي الرياضي</span></td><td><span class="pill pill-navy">Tier 2</span></td><td style="text-align:center;color:#9CA3AF;">—</td><td style="text-align:center;color:#9CA3AF;">—</td><td style="font-size:11px;">UAE regulatory environment module covers DSC circular requirements and cross-emirate practice implications for BSCND graduates seeking employment in Dubai</td><td style="font-size:11px;">Graduates holding REPs UAE ID card (obtained through SPMD308) are compliant with both ADSC and DSC club requirements</td></tr><tr><td class="col-code">DoH</td><td style="font-size:12px;"><strong>Department of Health Abu Dhabi</strong><br><span style="font-size:11px;color:#4B5563;">دائرة الصحة - أبوظبي</span></td><td><span class="pill pill-green">Tier 1</span></td><td style="text-align:center;color:#9CA3AF;">—</td><td style="text-align:center;color:#9CA3AF;">—</td><td style="font-size:11px;">CLO5 explicitly differentiates Dietitian scope (DoH licence required for nutrition counselling) from fitness coach scope (REPs UAE registration); students learn referral boundaries</td><td style="font-size:11px;">Capstone CLO5 demonstrates integrated dual-credential value: BSCND graduates hold unique DoH-eligible Dietitian qualification AND REPs UAE fitness coach registration</td></tr><tr><td class="col-code">GAS</td><td style="font-size:12px;"><strong>General Authority of Sports / Ministry of Sport</strong><br><span style="font-size:11px;color:#4B5563;">وزارة الرياضة / الهيئة العامة للرياضة</span></td><td><span class="pill" style="background:var(--grey-100);">Tier 3</span></td><td style="font-size:11px;">GAS strategic framing of sports and fitness as a national priority sector provides programme rationale context for ADEK submission</td><td style="text-align:center;color:#9CA3AF;">—</td><td style="font-size:11px;">Federal Decree-Law No. 4/2023 and UAE sports governance framework covered as background context in the UAE regulatory environment module</td><td style="text-align:center;color:#9CA3AF;">—</td></tr><tr><td class="col-code">MoHRE</td><td style="font-size:12px;"><strong>Ministry of Human Resources &amp; Emiratisation</strong><br><span style="font-size:11px;color:#4B5563;">وزارة الموارد البشرية والتوطين</span></td><td><span class="pill" style="background:var(--grey-100);">Tier 3</span></td><td style="text-align:center;color:#9CA3AF;">—</td><td style="text-align:center;color:#9CA3AF;">—</td><td style="font-size:11px;">Business of Fitness module covers MoHRE work permit requirements, DED/free-zone trade licence options for self-employed coaches, and Emiratisation targets for sports sector</td><td style="font-size:11px;">Students completing practicum placement are oriented to MoHRE employment documentation requirements for post-graduation employment</td></tr><tr><td class="col-code">REPs UAE</td><td style="font-size:12px;"><strong>Register of Exercise Professionals UAE</strong><br><span style="font-size:11px;color:#4B5563;">سجل المختصين في الرياضة</span></td><td><span class="pill pill-green">Tier 1</span></td><td style="font-size:11px;">Maps to ICREPs Level 3 PT &#x27;Programme Design&#x27; + &#x27;Apply Principles of Training&#x27; competency units</td><td style="font-size:11px;">Maps to REPs UAE Group Fitness Instructor category competencies (ICREPs Level 2/3 GFI)</td><td style="font-size:11px;">Maps to ICREPs Level 3 PT &#x27;Client Consultation &amp; Behaviour Change&#x27; + &#x27;Professional Practice&#x27; units</td><td style="font-size:11px;">Delivers the ICREPs Level 3 PT &#x27;Practical Coaching Hours&#x27; unit (200 hrs) + First Aid certification; completes REPs UAE PT registration portfolio</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+
+<section id="plo-clo">
+  <h2 class="sec">PLO &times; CLO Matrix</h2>
+  <p style="font-size:13px;color:#4B5563;margin:-8px 0 14px;">Filled circle (&#9679;) indicates the CLO maps to that PLO. PROPOSED courses shown with amber header.</p>
+  <h3 class="sub">Programme Learning Outcomes</h3>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;margin-bottom:20px;">
+    <div style="background:var(--grey-50);border-left:4px solid var(--gold);padding:12px 14px;border-radius:6px;"><strong style="color:var(--navy);">PLO1</strong> &mdash; Problem-Solving with Science<br><span style="font-size:12px;color:#374151;">Apply scientific principles and evidence-based nutrition science to assess, diagnose, and solve nutrition-related health problems across the lifespan.</span><br><span style="font-size:11px;background:var(--navy);color:#fff;padding:1px 8px;border-radius:999px;">QF: </span></div>
+<div style="background:var(--grey-50);border-left:4px solid var(--gold);padding:12px 14px;border-radius:6px;"><strong style="color:var(--navy);">PLO2</strong> &mdash; System / Program Design<br><span style="font-size:12px;color:#374151;">Design, implement, and evaluate nutrition intervention programs and medical nutrition therapy protocols for individuals and populations.</span><br><span style="font-size:11px;background:var(--navy);color:#fff;padding:1px 8px;border-radius:999px;">QF: </span></div>
+<div style="background:var(--grey-50);border-left:4px solid var(--gold);padding:12px 14px;border-radius:6px;"><strong style="color:var(--navy);">PLO3</strong> &mdash; Experimentation &amp; Data Analysis<br><span style="font-size:12px;color:#374151;">Conduct comprehensive nutrition assessment, interpret clinical and laboratory data, and evaluate intervention outcomes using appropriate research methods.</span><br><span style="font-size:11px;background:var(--navy);color:#fff;padding:1px 8px;border-radius:999px;">QF: </span></div>
+<div style="background:var(--grey-50);border-left:4px solid var(--gold);padding:12px 14px;border-radius:6px;"><strong style="color:var(--navy);">PLO4</strong> &mdash; Communication &amp; Collaborative Practice<br><span style="font-size:12px;color:#374151;">Communicate effectively with patients, healthcare teams, and communities, and collaborate productively within interprofessional teams to deliver comprehensive nutrition care.</span><br><span style="font-size:11px;background:var(--navy);color:#fff;padding:1px 8px;border-radius:999px;">QF: </span></div>
+<div style="background:var(--grey-50);border-left:4px solid var(--gold);padding:12px 14px;border-radius:6px;"><strong style="color:var(--navy);">PLO5</strong> &mdash; Ethics &amp; Professional Responsibility<br><span style="font-size:12px;color:#374151;">Practice nutrition care with ethical integrity, cultural competence, and professional accountability in accordance with UAE and international standards.</span><br><span style="font-size:11px;background:var(--navy);color:#fff;padding:1px 8px;border-radius:999px;">QF: </span></div>
+  </div>
+  
+  <div style="margin-bottom:24px;">
+    <div style="background:var(--navy);color:#fff;padding:10px 16px;border-radius:8px 8px 0 0;font-weight:700;font-size:14px;">
+      SPMD301: Foundations of Sports Medicine
+    </div>
+    <div style="border:1px solid var(--grey-200);border-top:none;border-radius:0 0 8px 8px;overflow:hidden;">
+      <div class="tbl-wrap">
+        <table class="hm">
+          <thead><tr><th style="text-align:left;min-width:300px;">CLO</th><th style='min-width:48px;text-align:center;'>PLO1</th><th style='min-width:48px;text-align:center;'>PLO2</th><th style='min-width:48px;text-align:center;'>PLO3</th><th style='min-width:48px;text-align:center;'>PLO4</th><th style='min-width:48px;text-align:center;'>PLO5</th></tr></thead>
+          <tbody><tr><td style="font-size:11px;">CLO1: Analyze human movement patterns in athletic populations using anatomical and biomechanical principles to determine injury risk factors.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">CLO2: Analyze physiological responses and adaptations associated with acute exercise and chronic training across diverse sport modalities.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">CLO3: Analyze common sports injuries with respect to mechanisms of injury, clinical presentation, and evidence-based treatment approaches.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">CLO4: Evaluate the role of interdisciplinary sports medicine teams, including physicians, athletic trainers, physical therapists, and nutritionists, in comprehensive athlete care.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">CLO5: Demonstrate professional communication skills related to sports medicine concepts in interactions with athletes, coaches, and healthcare providers.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr></tbody>
+        </table>
+      </div>
+      <div style="padding:8px 14px;font-size:11px;color:#4B5563;border-top:1px solid var(--grey-200);">
+        PLOs addressed: <strong>PLO1, PLO2, PLO4</strong>
+        &nbsp;&middot;&nbsp; KU GELOs: ILO1, ILO3, ILO6, ILO9
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-bottom:24px;">
+    <div style="background:var(--amber);color:#fff;padding:10px 16px;border-radius:8px 8px 0 0;font-weight:700;font-size:14px;">
+      SPMD301a: Sports Anatomy &amp; Injury Mechanics [PROPOSED — pending faculty validation]
+    </div>
+    <div style="border:1px solid var(--grey-200);border-top:none;border-radius:0 0 8px 8px;overflow:hidden;">
+      <div class="tbl-wrap">
+        <table class="hm">
+          <thead><tr><th style="text-align:left;min-width:300px;">CLO</th><th style='min-width:48px;text-align:center;'>PLO1</th><th style='min-width:48px;text-align:center;'>PLO2</th><th style='min-width:48px;text-align:center;'>PLO3</th><th style='min-width:48px;text-align:center;'>PLO4</th><th style='min-width:48px;text-align:center;'>PLO5</th></tr></thead>
+          <tbody><tr><td style="font-size:11px;">Identify musculoskeletal structures relevant to common sports injuries</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">Analyze mechanical loading patterns associated with overuse and acute injury</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">Apply tissue-healing timelines to nutrition counseling for injured athletes</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">Critique current evidence on nutritional support of injury recovery</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr></tbody>
+        </table>
+      </div>
+      <div style="padding:8px 14px;font-size:11px;color:#4B5563;border-top:1px solid var(--grey-200);">
+        PLOs addressed: <strong>PLO1: Apply biomedical sciences foundations to nutrition practice, PLO2: Demonstrate professional skills relevant to clinical practice, PLO3: Critically evaluate scientific evidence</strong>
+        &nbsp;&middot;&nbsp; KU GELOs: GELO1 Knowledge &amp; Understanding, GELO2 Cognitive Skills
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-bottom:24px;">
+    <div style="background:var(--navy);color:#fff;padding:10px 16px;border-radius:8px 8px 0 0;font-weight:700;font-size:14px;">
+      SPMD302: Exercise Physiology
+    </div>
+    <div style="border:1px solid var(--grey-200);border-top:none;border-radius:0 0 8px 8px;overflow:hidden;">
+      <div class="tbl-wrap">
+        <table class="hm">
+          <thead><tr><th style="text-align:left;min-width:300px;">CLO</th><th style='min-width:48px;text-align:center;'>PLO1</th><th style='min-width:48px;text-align:center;'>PLO2</th><th style='min-width:48px;text-align:center;'>PLO3</th><th style='min-width:48px;text-align:center;'>PLO4</th><th style='min-width:48px;text-align:center;'>PLO5</th></tr></thead>
+          <tbody><tr><td style="font-size:11px;">CLO1: Apply principles of bioenergetics to explanations of ATP production, energy system contributions, and metabolic responses across varying exercise intensities and durations.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">CLO2: Analyze cardiovascular, respiratory, neuromuscular, and endocrine adaptations associated with aerobic and anaerobic training.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">CLO3: Conduct exercise physiology assessments, including VO2max testing, lactate threshold determination, and body composition analysis.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">CLO4: Evaluate the effects of environmental conditions, including heat, cold, and altitude, on exercise performance and physiological adaptation strategies.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">CLO5: Design evidence-based training programs to optimize physiological adaptations for specific performance goals.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr></tbody>
+        </table>
+      </div>
+      <div style="padding:8px 14px;font-size:11px;color:#4B5563;border-top:1px solid var(--grey-200);">
+        PLOs addressed: <strong>PLO1, PLO2, PLO3</strong>
+        &nbsp;&middot;&nbsp; KU GELOs: ILO2, ILO3, ILO8, ILO9
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-bottom:24px;">
+    <div style="background:var(--amber);color:#fff;padding:10px 16px;border-radius:8px 8px 0 0;font-weight:700;font-size:14px;">
+      SPMD302a: Exercise Physiology Lab [PROPOSED — pending faculty validation]
+    </div>
+    <div style="border:1px solid var(--grey-200);border-top:none;border-radius:0 0 8px 8px;overflow:hidden;">
+      <div class="tbl-wrap">
+        <table class="hm">
+          <thead><tr><th style="text-align:left;min-width:300px;">CLO</th><th style='min-width:48px;text-align:center;'>PLO1</th><th style='min-width:48px;text-align:center;'>PLO2</th><th style='min-width:48px;text-align:center;'>PLO3</th><th style='min-width:48px;text-align:center;'>PLO4</th><th style='min-width:48px;text-align:center;'>PLO5</th></tr></thead>
+          <tbody><tr><td style="font-size:11px;">Conduct standardized exercise testing protocols</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">Interpret VO2max, RER, and lactate-threshold data in context of nutrition planning</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">Apply heart-rate and load metrics to fueling-strategy design</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">Communicate lab findings to athletes and multidisciplinary teams</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr></tbody>
+        </table>
+      </div>
+      <div style="padding:8px 14px;font-size:11px;color:#4B5563;border-top:1px solid var(--grey-200);">
+        PLOs addressed: <strong>PLO1: Apply biomedical sciences foundations to nutrition practice, PLO2: Demonstrate professional skills relevant to clinical practice, PLO5: Function effectively within multidisciplinary teams</strong>
+        &nbsp;&middot;&nbsp; KU GELOs: GELO1 Knowledge &amp; Understanding, GELO2 Cognitive Skills, GELO5 Teamwork &amp; Leadership
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-bottom:24px;">
+    <div style="background:var(--navy);color:#fff;padding:10px 16px;border-radius:8px 8px 0 0;font-weight:700;font-size:14px;">
+      SPMD303: Injury Prevention &amp; Rehabilitation
+    </div>
+    <div style="border:1px solid var(--grey-200);border-top:none;border-radius:0 0 8px 8px;overflow:hidden;">
+      <div class="tbl-wrap">
+        <table class="hm">
+          <thead><tr><th style="text-align:left;min-width:300px;">CLO</th><th style='min-width:48px;text-align:center;'>PLO1</th><th style='min-width:48px;text-align:center;'>PLO2</th><th style='min-width:48px;text-align:center;'>PLO3</th><th style='min-width:48px;text-align:center;'>PLO4</th><th style='min-width:48px;text-align:center;'>PLO5</th></tr></thead>
+          <tbody><tr><td style="font-size:11px;">CLO1: Apply evidence-based screening tools and movement assessments for the identification of injury risk factors and biomechanical deficiencies in athletes.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">CLO2: Design injury prevention programs that integrate strength training, flexibility, neuromuscular control, and sport-specific conditioning.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">CLO3: Analyze healing processes and phases of tissue repair relevant to rehabilitation progression for common sports injuries.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">CLO4: Evaluate therapeutic modalities, manual therapy techniques, and exercise interventions used in sports injury rehabilitation.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">CLO5: Collaborate with sports medicine professionals within return-to-play protocols to support safe athlete progression.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr></tbody>
+        </table>
+      </div>
+      <div style="padding:8px 14px;font-size:11px;color:#4B5563;border-top:1px solid var(--grey-200);">
+        PLOs addressed: <strong>PLO1, PLO2, PLO4</strong>
+        &nbsp;&middot;&nbsp; KU GELOs: ILO2, ILO3, ILO9, ILO12
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-bottom:24px;">
+    <div style="background:var(--navy);color:#fff;padding:10px 16px;border-radius:8px 8px 0 0;font-weight:700;font-size:14px;">
+      SPMD304: Performance Assessment &amp; Technology
+    </div>
+    <div style="border:1px solid var(--grey-200);border-top:none;border-radius:0 0 8px 8px;overflow:hidden;">
+      <div class="tbl-wrap">
+        <table class="hm">
+          <thead><tr><th style="text-align:left;min-width:300px;">CLO</th><th style='min-width:48px;text-align:center;'>PLO1</th><th style='min-width:48px;text-align:center;'>PLO2</th><th style='min-width:48px;text-align:center;'>PLO3</th><th style='min-width:48px;text-align:center;'>PLO4</th><th style='min-width:48px;text-align:center;'>PLO5</th></tr></thead>
+          <tbody><tr><td style="font-size:11px;">CLO1: Apply biomechanical analysis techniques, including force platforms, motion capture, and electromyography, to assessments of movement quality and sport-specific performance.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">CLO2: Conduct comprehensive fitness assessments using standardized protocols for strength, power, speed, agility, and endurance.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">CLO3: Analyze performance data through statistical methods for training recommendations and athlete progress tracking.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">CLO4: Evaluate emerging athlete-monitoring technologies, including wearable sensors, GPS tracking, and heart rate variability monitors, for performance optimization.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">CLO5: Design technology-enhanced performance monitoring systems that integrate physiological, biomechanical, and training load data.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr></tbody>
+        </table>
+      </div>
+      <div style="padding:8px 14px;font-size:11px;color:#4B5563;border-top:1px solid var(--grey-200);">
+        PLOs addressed: <strong>PLO1, PLO2, PLO3</strong>
+        &nbsp;&middot;&nbsp; KU GELOs: ILO2, ILO3, ILO7, ILO10
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-bottom:24px;">
+    <div style="background:var(--amber);color:#fff;padding:10px 16px;border-radius:8px 8px 0 0;font-weight:700;font-size:14px;">
+      SPMD305: Personal Training &amp; Exercise Programme Design [PROPOSED — pending faculty validation]
+    </div>
+    <div style="border:1px solid var(--grey-200);border-top:none;border-radius:0 0 8px 8px;overflow:hidden;">
+      <div class="tbl-wrap">
+        <table class="hm">
+          <thead><tr><th style="text-align:left;min-width:300px;">CLO</th><th style='min-width:48px;text-align:center;'>PLO1</th><th style='min-width:48px;text-align:center;'>PLO2</th><th style='min-width:48px;text-align:center;'>PLO3</th><th style='min-width:48px;text-align:center;'>PLO4</th><th style='min-width:48px;text-align:center;'>PLO5</th></tr></thead>
+          <tbody><tr><td style="font-size:11px;">CLO1: Apply the FITT-VP model and periodization principles to design client-centred exercise programmes for general-population and athletic clients at QFEmirates Level 6.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">CLO2: Conduct structured needs analysis and fitness assessments to inform individualized programme prescription across age groups and health status.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">CLO3: Demonstrate safe and effective technique instruction for resistance, cardiovascular, and functional training equipment in a supervised gym environment.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">CLO4: Evaluate and adjust exercise programmes based on client progress data, training load metrics, and evidence-based adaptation principles.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr><tr><td style="font-size:11px;">CLO5: Integrate sports nutrition knowledge with exercise prescription to optimise client outcomes across fitness, weight management, and performance goals.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td></tr></tbody>
+        </table>
+      </div>
+      <div style="padding:8px 14px;font-size:11px;color:#4B5563;border-top:1px solid var(--grey-200);">
+        PLOs addressed: <strong>PLO1, PLO2, PLO3</strong>
+        &nbsp;&middot;&nbsp; KU GELOs: ILO2, ILO3, ILO9, ILO10
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-bottom:24px;">
+    <div style="background:var(--amber);color:#fff;padding:10px 16px;border-radius:8px 8px 0 0;font-weight:700;font-size:14px;">
+      SPMD306: Group Fitness, Stretching &amp; Conditioning Instruction [PROPOSED — pending faculty validation]
+    </div>
+    <div style="border:1px solid var(--grey-200);border-top:none;border-radius:0 0 8px 8px;overflow:hidden;">
+      <div class="tbl-wrap">
+        <table class="hm">
+          <thead><tr><th style="text-align:left;min-width:300px;">CLO</th><th style='min-width:48px;text-align:center;'>PLO1</th><th style='min-width:48px;text-align:center;'>PLO2</th><th style='min-width:48px;text-align:center;'>PLO3</th><th style='min-width:48px;text-align:center;'>PLO4</th><th style='min-width:48px;text-align:center;'>PLO5</th></tr></thead>
+          <tbody><tr><td style="font-size:11px;">CLO1: Plan and deliver group fitness classes applying evidence-based programming, cueing, and safety principles for mixed-ability participants at QFEmirates Level 6.</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td></tr><tr><td style="font-size:11px;">CLO2: Design and instruct structured flexibility and stretching protocols appropriate to diverse client populations, using anatomically sound progressions.</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td></tr><tr><td style="font-size:11px;">CLO3: Demonstrate safe exercise instruction methodology including movement demonstration, verbal cueing, visual monitoring, and real-time correction.</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td></tr><tr><td style="font-size:11px;">CLO4: Evaluate participant responses during group sessions and modify intensity, complexity, and progression to ensure inclusive, evidence-based instruction.</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td></tr><tr><td style="font-size:11px;">CLO5: Apply UAE regulatory requirements for group fitness instructors, including REPs UAE Group Fitness Instructor registration competencies and professional conduct standards.</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td></tr></tbody>
+        </table>
+      </div>
+      <div style="padding:8px 14px;font-size:11px;color:#4B5563;border-top:1px solid var(--grey-200);">
+        PLOs addressed: <strong>PLO2, PLO4, PLO5</strong>
+        &nbsp;&middot;&nbsp; KU GELOs: ILO6, ILO9, ILO12, ILO14
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-bottom:24px;">
+    <div style="background:var(--amber);color:#fff;padding:10px 16px;border-radius:8px 8px 0 0;font-weight:700;font-size:14px;">
+      SPMD307: Fitness Coaching, Behaviour Change &amp; Business of Fitness [PROPOSED — pending faculty validation]
+    </div>
+    <div style="border:1px solid var(--grey-200);border-top:none;border-radius:0 0 8px 8px;overflow:hidden;">
+      <div class="tbl-wrap">
+        <table class="hm">
+          <thead><tr><th style="text-align:left;min-width:300px;">CLO</th><th style='min-width:48px;text-align:center;'>PLO1</th><th style='min-width:48px;text-align:center;'>PLO2</th><th style='min-width:48px;text-align:center;'>PLO3</th><th style='min-width:48px;text-align:center;'>PLO4</th><th style='min-width:48px;text-align:center;'>PLO5</th></tr></thead>
+          <tbody><tr><td style="font-size:11px;">CLO1: Apply behaviour-change theories (Transtheoretical Model, Motivational Interviewing, Self-Determination Theory) to design client-centred coaching strategies for diverse fitness populations at QFEmirates Level 6.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td></tr><tr><td style="font-size:11px;">CLO2: Analyse the UAE fitness industry regulatory framework, including REPs UAE, ADSC, and DSC requirements, and apply scope-of-practice boundaries for fitness professionals.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td></tr><tr><td style="font-size:11px;">CLO3: Evaluate professional ethics, liability, informed consent, and confidentiality obligations governing fitness coaches in Abu Dhabi and UAE free-zone contexts.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td></tr><tr><td style="font-size:11px;">CLO4: Design a sustainable business model for a fitness coaching practice, including pricing structures, client acquisition, insurance, and MoHRE / DED licensing considerations.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td></tr><tr><td style="font-size:11px;">CLO5: Integrate nutrition counselling (within Dietitian scope) and fitness coaching into a holistic client management plan, differentiating professional roles and referral pathways.</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td></tr></tbody>
+        </table>
+      </div>
+      <div style="padding:8px 14px;font-size:11px;color:#4B5563;border-top:1px solid var(--grey-200);">
+        PLOs addressed: <strong>PLO1, PLO4, PLO5</strong>
+        &nbsp;&middot;&nbsp; KU GELOs: ILO5, ILO6, ILO9, ILO14
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-bottom:24px;">
+    <div style="background:var(--amber);color:#fff;padding:10px 16px;border-radius:8px 8px 0 0;font-weight:700;font-size:14px;">
+      SPMD308: Fitness Coaching Practicum &amp; REPs UAE Certification Capstone [PROPOSED — pending faculty validation]
+    </div>
+    <div style="border:1px solid var(--grey-200);border-top:none;border-radius:0 0 8px 8px;overflow:hidden;">
+      <div class="tbl-wrap">
+        <table class="hm">
+          <thead><tr><th style="text-align:left;min-width:300px;">CLO</th><th style='min-width:48px;text-align:center;'>PLO1</th><th style='min-width:48px;text-align:center;'>PLO2</th><th style='min-width:48px;text-align:center;'>PLO3</th><th style='min-width:48px;text-align:center;'>PLO4</th><th style='min-width:48px;text-align:center;'>PLO5</th></tr></thead>
+          <tbody><tr><td style="font-size:11px;">CLO1: Demonstrate competent delivery of individualised personal-training sessions and group fitness instruction across 200 supervised practice hours in REPs-affiliated fitness facilities at QFEmirates Level 6.</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td></tr><tr><td style="font-size:11px;">CLO2: Apply CPR, AED, and First Aid protocols to simulated and real emergency scenarios, achieving external certification from a recognised provider (Heart &amp; Stroke Foundation / UAE Red Crescent).</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td></tr><tr><td style="font-size:11px;">CLO3: Assemble a complete REPs UAE Personal Trainer registration portfolio including qualifications evidence, practical hours log, CPR/First Aid certificate, and professional CV.</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td></tr><tr><td style="font-size:11px;">CLO4: Critically reflect on supervised practice experiences using structured professional learning frameworks, identifying strengths, gaps, and continuing professional development goals.</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td></tr><tr><td style="font-size:11px;">CLO5: Integrate dietetics and fitness coaching competencies to design and communicate holistic health plans, demonstrating the unique dual-credential value of the BSCND + Concentration qualification.</td><td class="empty" style="text-align:center;color:#9CA3AF;background:var(--grey-100);">&mdash;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td><td class="dot" style="text-align:center;font-size:14px;">&#9679;</td></tr></tbody>
+        </table>
+      </div>
+      <div style="padding:8px 14px;font-size:11px;color:#4B5563;border-top:1px solid var(--grey-200);">
+        PLOs addressed: <strong>PLO2, PLO3, PLO4, PLO5</strong>
+        &nbsp;&middot;&nbsp; KU GELOs: ILO6, ILO11, ILO12, ILO14, ILO15
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<section id="data-issues">
+  <h2 class="sec">Known Data Issues</h2>
+  <div class="banner banner-amber" style="margin-bottom:14px;">
+    <strong>Action required:</strong> The following issues must be resolved before UGCC submission.
+  </div>
+  <div class="card">
+    <ol style="font-size:13px;color:#4B5563;line-height:1.7;padding-left:20px;margin:0;">
+<li style="margin-bottom:8px;"><strong>Decision needed:</strong> SPMD304 credits listed as 0 in BSCND_KU_Mapping/_data.json — confirmed error; corrected to 3 in this file based on syllabus header</li>
+<li style="margin-bottom:8px;"><strong>Decision needed:</strong> SPMD303 prerequisite listed as BMED301 in source docx — corrected to SPMD301</li>
+<li style="margin-bottom:8px;"><strong>Decision needed:</strong> SPMD304 prerequisite listed as BMED302 in source docx — corrected to SPMD302</li>
+<li style="margin-bottom:8px;"><strong>Decision needed:</strong> SPMD305-308 course CLOs and PLO mappings are inferred (_inferred: true) — require faculty review and formal syllabus authoring before UGCC submission</li>
+<li style="margin-bottom:8px;"><strong>Decision needed:</strong> SPMD 301a + 302a authored 2026-05-18; faculty must validate per _inferred:true flag</li>
+    </ol>
+  </div>
+</section>
+
+
+<section id="appendix">
+  <h2 class="sec">Appendix A &mdash; Source Corpus Index</h2>
+  <p style="font-size:13px;color:#4B5563;">(Corpus extract data not present in this data file.)</p>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  BSCND Sports Medicine Roadmap · Fall 2027 · Generated 2026-05-18 · ADEK-aligned
+  <span class="dot">&middot;</span>
+  Prepared by Dr. Carlo Raj
+  <span class="dot">&middot;</span>
+  Khalifa University CMHS
+</footer>
+
+<script>
+
+(function() {
+  var links = document.querySelectorAll('.site-nav a[data-anchor]');
+  if (!links.length) return;
+  var byAnchor = {};
+  links.forEach(function(a) { byAnchor[a.dataset.anchor] = a; });
+  var secs = Array.prototype.slice.call(links).map(function(a) {
+    return document.getElementById(a.dataset.anchor);
+  }).filter(Boolean);
+  function setActive(id) {
+    links.forEach(function(a) { a.classList.remove('active'); });
+    if (byAnchor[id]) byAnchor[id].classList.add('active');
+  }
+  var io = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) { if (e.isIntersecting) setActive(e.target.id); });
+  }, { rootMargin: '-120px 0px -55% 0px', threshold: 0 });
+  secs.forEach(function(s) { io.observe(s); });
+  if (secs.length) setActive(secs[0].id);
+})();
+
+</script>
+</body>
+</html>
